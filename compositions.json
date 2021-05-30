@@ -1,0 +1,1550 @@
+{
+    "compositions": [{
+        "title": "8 Stimmungsbilder (Mood Pictures)",
+        "op": 1,
+        "year": "1896 - 1897",
+        "instrumentation": "solo piano",
+        "approxDuration": "20:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Andante Cantabile"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Allegro con impeto"
+        }, 
+        {
+            "movementNumber": 3,
+            "movement": "Maestoso freddo"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Andantino con moto"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Andante"
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Allegro con humore"
+        },
+        {
+            "movementNumber": 7,
+            "movement": "Allegro con ira"
+        },
+        {
+            "movementNumber": 8,
+            "movement": "Allegro con grazia (quasi valse)"
+        }
+    ]
+    },
+    {
+        "title": "3 Fantastic Improvisations",
+        "op": 2,
+        "year": "1896 - 1900",
+        "instrumentation": "solo piano",
+        "approxDuration": "15:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Rusalka (Water Nymph)"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Reminiscence of a Ball"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Scherzo infernale"
+        }
+    ]
+    },
+    {
+        "title": "Three Romances",
+        "op": 3,
+        "year": "1903",
+        "instrumentation": "voice and piano",
+        "approxDuration": "8:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "At the Gates of the Holy Cloister"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "I've Lived to See Desire Vanish"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "On the Lake"
+        }
+    ]
+    },
+    {
+        "title": "4 Morceaux",
+        "op": 4,
+        "year": "1897 - 1902",
+        "instrumentation": "solo piano",
+        "approxDuration": "10:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Étude"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Caprice"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "The Gnome's Lament"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Prelude"
+        }
+    ]
+    },
+    {
+        "title": "Piano Sonata No. 1 in F minor",
+        "op": 5,
+        "year": "1903",
+        "instrumentation": "solo piano",
+        "approxDuration": "35:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Allegro"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Intermezzo. Allegro"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Largo"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Finale"
+        }
+    ]
+    },
+    {
+        "title": "9 Goethe Songs",
+        "op": 6,
+        "year": "1906",
+        "instrumentation": "voice and piano",
+        "approxDuration": "20:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Wandrers Nachtlied II"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Mailied"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Elfenliedchen"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Im Vorüberghen"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Liebliches Kind"
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Inneres Wühlen"
+        },
+        {
+            "movementNumber": 7,
+            "movement": "Sieh mich, Heil'ger"
+        },
+        {
+            "movementNumber": 8,
+            "movement": "Erster Verlust"
+        },
+        {
+            "movementNumber": 9,
+            "movement": "Gefunden"
+        }
+    ]
+    },
+    {
+        "title": "3 Arabesques",
+        "op": 7,
+        "year": "1904",
+        "instrumentation": "solo piano",
+        "approxDuration": "11:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Idyll"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Tragedy-Fragment in A minor"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Tragedy-Fragment in G minor"
+        }
+    ]
+    },
+    {
+        "title": "Two Märchen (Fairy Tales)",
+        "op": 8,
+        "year": "1905",
+        "instrumentation": "solo piano",
+        "approxDuration": "10:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Andantino"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Recitato"
+        }
+    ]
+    },
+    {
+        "title": "Three Märchen (Fairy Tales)",
+        "op": 9,
+        "year": "1906",
+        "instrumentation": "solo piano",
+        "approxDuration": "10:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Allegro Inquieto"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Allegro alla serenata, con alcuna licenza"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Allegretto vivo, odoroso"
+        }
+    ]
+    },
+    {
+        "title": "Three Dithyrambs",
+        "op": 10,
+        "year": "1906",
+        "instrumentation": "solo piano",
+        "approxDuration": "19:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Maestoso severamente"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Mit höchstem Pathos"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Andantino innocente"
+        }
+    ]
+    },
+    {
+        "title": "Sonaten-Triade",
+        "op": 11,
+        "year": "1906",
+        "instrumentation": "solo piano",
+        "approxDuration": "25:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Sonata in A-flat Major"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Sonata-Elegy in D minor"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Sonata in C Major"
+        }
+    ]
+    },
+    {
+        "title": "Three Poems of Heine",
+        "op": 12,
+        "year": "1907",
+        "instrumentation": "voice and piano",
+        "approxDuration": "6:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Lieb Liebchen"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Lyrisches Intermezzo"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Bergstimme"
+        }
+    ]
+    },
+    {
+        "title": "Two (Russian) Poems",
+        "op": 13,
+        "year": "1907",
+        "instrumentation": "voice and piano",
+        "approxDuration": "6:30",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Winter Evening"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Epitaph"
+        }
+    ]
+    },
+    {
+        "title": "Two Märchen (Fairy Tales)",
+        "op": 14,
+        "year": "1906 - 1907",
+        "instrumentation": "solo piano",
+        "approxDuration": "7:30",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Ophelia's Song"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "March of the Paladin"
+        }
+    ]
+    },
+    {
+        "title": "Twelve Goethe Songs",
+        "op": 15,
+        "year": "1907 - 1909",
+        "instrumentation": "voice and piano",
+        "approxDuration": "27:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Wandrers Nachtlied"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Aus \"Wilhelm Meister\""
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Selbstbetrug"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Aus \"Erwin und Elmire.\""
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Aus \"Lila\""
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Vor Gericht (Ballade)"
+        },
+        {
+            "movementNumber": 7,
+            "movement": "Meeresstille"
+        },
+        {
+            "movementNumber": 8,
+            "movement": "Glückliche Fahrt"
+        },
+        {
+            "movementNumber": 9,
+            "movement": "Nähe des Geliebten"
+        },
+        {
+            "movementNumber": 10,
+            "movement": "Der untreue Knabe (Ballade)"
+        },
+        {
+            "movementNumber": 11,
+            "movement": "Gleich und Gleich"
+        },
+        {
+            "movementNumber": 12,
+            "movement": "Geistergruss"
+        }
+    ]
+    },
+    {
+        "title": "Three Nocturnes for Violin and Piano",
+        "op": 16,
+        "year": "1907",
+        "instrumentation": "violin and piano",
+        "approxDuration": "14:30",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Andante con moto, sempre leggiero"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Largamente"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Moderato"
+        }
+    ]
+    },
+    {
+        "title": "Three Novellen",
+        "op": 17,
+        "year": "1908",
+        "instrumentation": "solo piano",
+        "approxDuration": "14:30",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Andante, \"Daphnis and Chloë\""
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Tempo giusto"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Allegro, molto sostenuto"
+        }
+    ]
+    },
+    {
+        "title": "Six Poems of Goethe",
+        "op": 18,
+        "year": "1908",
+        "instrumentation": "voice and piano",
+        "approxDuration": "TBD",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Die Spröde"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Die Bekehrte"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Einsamkeit"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Mignon"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Das Veilchen (Ballade)"
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Jägers Abendlied"
+        }
+    ]
+    },
+    {
+        "title": "Five Poems of Nietzsche",
+        "op": 19,
+        "year": "1910 - 1912",
+        "instrumentation": "voice and piano",
+        "approxDuration": "TBD",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Gruß"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Alt Mütterlein"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Heimweh"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Heimkehr"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Verzweiflung"
+        }
+    ]
+    },
+    {
+        "title": "Two Märchen (Fairy Tales)",
+        "op": 20,
+        "year": "1909",
+        "instrumentation": "solo piano",
+        "approxDuration": "7:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Tale in B-flat minor"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Tale in B minor, \"Campanella\""
+        }
+    ]
+    },
+    {
+        "title": "Violin Sonata No. 1 in B minor",
+        "op": 21,
+        "year": "1909",
+        "instrumentation": "violin and piano",
+        "approxDuration": "21:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Canzona"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Danza"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Ditirambo"
+        }
+    ]
+    },
+    {
+        "title": "Piano Sonata No. 5 in G minor",
+        "op": 22,
+        "year": "1901 - 1910",
+        "instrumentation": "solo piano",
+        "approxDuration": "18:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Tenebroso, sempre affrettando"
+        }
+    ]
+    },
+    {
+        "title": "Four Lyric Fragments",
+        "op": 23,
+        "year": "1911 - 1913",
+        "instrumentation": "solo piano",
+        "approxDuration": "12:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Allegretto commodamente in C minor"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Andantino gracile in A minor"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Tempo di Valse in F Minor"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Andantino tenebroso in C minor"
+        }
+    ]
+    },
+    {
+        "title": "Eight (Russian) Poems",
+        "op": 24,
+        "year": "1911",
+        "instrumentation": "voice and piano",
+        "approxDuration": "17:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Tag und Nacht"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Warum stets zum Wasser lenkst du..."
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Wellen...Gedanken"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Zwielicht"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Erschüttert steh' ich, wenn der Wald..."
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Wenn dein Auge ins Auge mir sieht..."
+        },
+        {
+            "movementNumber": 7,
+            "movement": "Meeresstille"
+        },
+        {
+            "movementNumber": 8,
+            "movement": "Kind, ich komme mit dem Gruße"
+        }
+    ]
+    },
+    {
+        "title": "Piano Sonata No. 6 in C minor",
+        "op": 25,
+        "no": 1,
+        "year": "1910 - 1911",
+        "instrumentation": "solo piano",
+        "approxDuration": "15:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Allegro abbandonamente"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Andantino con moto"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Allegro con spirito"
+        }
+    ]
+    },
+    {
+        "title": "Piano Sonata No. 7 in E minor, \"Nightwind\"",
+        "op": 25,
+        "no": 2,
+        "year": "1910 - 1911",
+        "instrumentation": "solo piano",
+        "approxDuration": "35:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Introduzione: Andante - Allegro"
+        }
+    ]
+    },
+    {
+        "title": "Four Märchen (Fairy Tales)",
+        "op": 26,
+        "year": "1910 - 1912",
+        "instrumentation": "solo piano",
+        "approxDuration": "11:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Tale in E-flat Major"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Tale in E-flat Major"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Tale in F minor"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Tale in F-sharp minor"
+        }
+    ]
+    },
+    {
+        "title": "Étude in C minor",
+        "op": "TBD",
+        "year": "1912",
+        "instrumentation": "solo piano",
+        "approxDuration": "2:40",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Allegro (all'antica)"
+        }
+    ]
+    },
+    {
+        "title": "Piano Sonata No. 8 in F-sharp Major, \"Sonate-Ballade\"",
+        "op": 27,
+        "year": "1913 - 1914",
+        "instrumentation": "solo piano",
+        "approxDuration": "21:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Allegretto"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Introduzione e Finale. Mesto - Allegro"
+        }
+    ]
+    },
+    {
+        "title": "Seven (Russian) Poems",
+        "op": 28,
+        "year": "1913",
+        "instrumentation": "voice and piano",
+        "approxDuration": "22:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Der ungeahnte Regen"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Jedes Mal hör' ich dies Vöglein singen..."
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Der Schmetterling"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Auf dem Kirchhof, da es öd und leer..."
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Die Frühlingsberuhigung"
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Ich sitz' so einsam am Kamin..."
+        },
+        {
+            "movementNumber": 7,
+            "movement": "Gott sende jedem seine Labe..."
+        }
+    ]
+    },
+    {
+        "title": "Seven Pushkin Poems",
+        "op": 29,
+        "year": "1913",
+        "instrumentation": "voice and piano",
+        "approxDuration": "16:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Die Muse"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Der Sänger"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Verse, in einer schlaflosen Nacht gedictet"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Das Ross"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Elegie (\"Ich überlebte mein Verlangen...\""
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Die Rose"
+        },
+        {
+            "movementNumber": 7,
+            "movement": "Beschwörung"
+        }
+    ]
+    },
+    {
+        "title": "Piano Sonata No. 9 in A minor, \"War Sonata\"",
+        "op": 30,
+        "year": "1914",
+        "instrumentation": "solo piano",
+        "approxDuration": "15:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Allegro risoluto"
+        }
+    ]
+    },
+    {
+        "title": "Three Pieces",
+        "op": 31,
+        "year": "1914",
+        "instrumentation": "solo piano",
+        "approxDuration": "15:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Improvisation"
+        },
+        {
+            "movementNumber": 1,
+            "movement": "Funeral March"
+        },
+        {
+            "movementNumber": 1,
+            "movement": "Tale in G-sharp minor"
+        }
+    ]
+    },
+    {
+        "title": "Six Pushkin Poems",
+        "op": 32,
+        "year": "1915",
+        "instrumentation": "voice and piano",
+        "approxDuration": "20:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Das Echo"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Erinnerung"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Trauerlied"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Ich liebte Sie"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Wie kann vergessen jemals ich die Stunde (Walzer)"
+        },
+        {
+            "movementNumber": 6,
+            "movement": "An den Träumer"
+        }
+    ]
+    },
+    {
+        "title": "Piano Concerto No. 1 in C minor",
+        "op": 33,
+        "year": "1914 - 1918",
+        "instrumentation": "piano and orchestra",
+        "approxDuration": "34:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Allegro"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Tranquillo, meditamente"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Coda. Allegro molto"
+        }
+    ]
+    },
+    {
+        "title": "Four Märchen (Fairy Tales)",
+        "op": 34,
+        "year": "1916",
+        "instrumentation": "solo piano",
+        "approxDuration": "18:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Tale in B minor, \"The Magic Fiddle\""
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Tale in E minor, \"We lost all that was once our own\""
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Tale in A minor, \"Wood Goblin\""
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Tale in D minor, \"Once upon a time there lived a poor knight\""
+        }
+    ]
+    },
+    {
+        "title": "Four Märchen (Fairy Tales)",
+        "op": 35,
+        "year": "1916",
+        "instrumentation": "solo piano",
+        "approxDuration": "18:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Tale in C Major"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Tale in G Major"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Tale in A minor"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Tale in C-sharp minor, \"King Lear\""
+        }
+    ]
+    },
+    {
+        "title": "Six Pushkin Poems",
+        "op": 36,
+        "year": "1915",
+        "instrumentation": "voice and piano",
+        "approxDuration": "15:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Der Engel"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Die Blume"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Kaum welken hier die Rosen..."
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Spanische Romanze"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Nachts"
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Arion"
+        }
+    ]
+    },
+    {
+        "title": "Five Poems by Tyutchev and Fet",
+        "op": 37,
+        "year": "1918 - 1920",
+        "instrumentation": "voice and piano",
+        "approxDuration": "15:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Schlaflosigkeit"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Tränen"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Impromptu (Meinen Wahnsinn...)"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Walzer (Noch jüngst bei bezaubernden Tönen...)"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Was heulst du, Wind, um Mitternacht?"
+        }
+    ]
+    },
+    {
+        "title": "Forgotten Melodies, First Cycle",
+        "op": 38,
+        "year": "1919 - 1922",
+        "instrumentation": "solo piano",
+        "approxDuration": "36:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Piano Sonata No. 10 in A minor, \"Sonata Reminiscenza\""
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Danza Graziosa"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Danza Festiva"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Canzona Fluviala"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Danza Rustica"
+        }, 
+        {
+            "movementNumber": 6,
+            "movement": "Canzona Serenata"
+        },
+        {
+            "movementNumber": 7,
+            "movement": "Danza silvestra"
+        },
+        {
+            "movementNumber": 8,
+            "movement": "Alla Reminiscenza"
+        }
+    ]
+    },
+    {
+        "title": "Forgotten Melodies, Second Cycle",
+        "op": 39,
+        "year": "1919 - 1920",
+        "instrumentation": "solo piano",
+        "approxDuration": "30:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Meditazione"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Romanza"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Primavera"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Canzona matinata"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Piano Sonata No. 11 in C minor, \"Sonata tragica\""
+        }
+    ]
+    },
+    {
+        "title": "Forgotten Melodies, Third Cycle",
+        "op": 40,
+        "year": "1919 - 1920",
+        "instrumentation": "solo piano",
+        "approxDuration": "30:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Danza col canto"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Danza sinfonica"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Danza fiorata"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Danza jubilosa"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Danza ondulata"
+        }, 
+        {
+            "movementNumber": 6,
+            "movement": "Danza ditirambica"
+        }
+    ]
+    },
+    {
+        "title": "Sonate-Vocalise mit einem Motto \"Geweihter Platz\"",
+        "op": 41,
+        "no": 1,
+        "year": "1922",
+        "instrumentation": "voice and piano",
+        "approxDuration": "14:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Geweihter Platz"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Sonate-Vocalise"
+        }
+    ]
+    },
+    {
+        "title": "Suite-Vocalise in F minor",
+        "op": 41,
+        "no": 2,
+        "year": "1927",
+        "instrumentation": "voice and piano",
+        "approxDuration": "14:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Introduzione"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Gesang der Nymphen"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Geheimnisse"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Zug der Grazien"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Was der Dichter spricht"
+        }
+    ]
+    },
+    {
+        "title": "Three Märchen (Fairy Tales)",
+        "op": 42,
+        "year": "1921 - 1924",
+        "instrumentation": "solo piano",
+        "approxDuration": "14:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Tale in F minor, \"Russian Tale\""
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Tale in C minor, \"Phrygian Mode\""
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Tale in G-sharp minor"
+        }
+    ]
+    },
+    {
+        "title": "Two Canzonas with Dances for Violin and Piano",
+        "op": 43,
+        "year": "1921 - 1924",
+        "instrumentation": "violin and piano",
+        "approxDuration": "18:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Canzona. Andantino con moto"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Danza. Allegro non troppo e capriccioso"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Canzona. Andantino cantabile"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Danza. Allegro"
+        }
+    ]
+    },
+    {
+        "title": "Violin Sonata No. 2 in G Major",
+        "op": 44,
+        "year": "1922 - 1925",
+        "instrumentation": "violin and piano",
+        "approxDuration": "41:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Introduzione. Maestoso (poco quasi cadenza.) - Allegro non troppo ma appassionato"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "1ma cadenza (Tranquillo cantabile)"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Tema con variazioni (Tema. Andante con moto, 6 variations)"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "2da cadenza (Tranquillo cantabile)"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Finale rondo. (Allegro risoluto)"
+        }
+    ]
+    },
+    {
+        "title": "Four Poems by Pushkin and Tyutchev",
+        "op": 45,
+        "year": "1924",
+        "instrumentation": "voice and piano",
+        "approxDuration": "15:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Elegie"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Der Karren des Lebens"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Das Nachtlied"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Unsere Zeit"
+        }
+    ]
+    },
+    {
+        "title": "Seven Poems by Goethe, Eichendorff, and Chamisso",
+        "op": 46,
+        "year": "1922 - 1924",
+        "instrumentation": "voice and piano",
+        "approxDuration": "18:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Praeludium"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Geweihter Platz"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Serenade"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Im Walde"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Winternacht"
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Die Quelle"
+        },
+        {
+            "movementNumber": 7,
+            "movement": "Frisch gesungen"
+        }
+
+    ]
+    },
+    {
+        "title": "Second Improvisation in F-sharp minor",
+        "op": 47,
+        "year": "1925",
+        "instrumentation": "solo piano",
+        "approxDuration": "29:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Theme and 16 variations"
+        }
+    ]
+    },
+    {
+        "title": "Two Märchen (Fairy Tales)",
+        "op": 48,
+        "year": "1925",
+        "instrumentation": "solo piano",
+        "approxDuration": "13:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Tale in C Major, \"Dance-Tale\""
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Tale in G minor, \"Elves' Tale\""
+        }
+    ]
+    },
+    {
+        "title": "Three Hymns in Praise of Toil",
+        "op": 49,
+        "year": "1926",
+        "instrumentation": "solo piano",
+        "approxDuration": "11:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Hymne vor der Arbeit"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Hymne Am Amboß"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Hymne Nach der Arbeit"
+        }
+    ]
+    },
+    {
+        "title": "Piano Concerto No. 2 in C minor",
+        "op": 50,
+        "year": "1921 - 1926",
+        "instrumentation": "piano and orchestra",
+        "approxDuration": "36:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Toccata (Allegro risoluto)"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Romance (Andante con moto)"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Divertimento (Rondo - Allegro risoluto e molto vivace)"
+        }
+    ]
+    },
+    {
+        "title": "Six Märchen (Fairy Tales)",
+        "op": 51,
+        "year": "1928",
+        "instrumentation": "solo piano",
+        "approxDuration": "25:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Tale in D minor"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Tale in A minor"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Tale in A Major"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Tale in F-sharp minor"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Tale in F-sharp minor"
+        },
+        {
+            "movementNumber": 6   ,
+            "movement": "Tale in G Major"
+        }
+    ]
+    },
+    {
+        "title": "Seven Pushkin Poems",
+        "op": 52,
+        "year": "1929",
+        "instrumentation": "voice and piano",
+        "approxDuration": "23:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Das Fenster"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Der Rabe (Schottisches Lied)"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Elegie"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Zeichen"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Spanische Romanze"
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Serenade"
+        },
+        {
+            "movementNumber": 7,
+            "movement": "Der Gefangene"
+        }
+    ]
+    },
+    {
+        "title": "Piano Sonata No. 12 in B-flat minor, \"Sonata Romantica\"",
+        "op": 53,
+        "no": 1,
+        "year": "1929 - 1930",
+        "instrumentation": "solo piano",
+        "approxDuration": "23:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Romanza. Andantino con moto, ma sempre espressivo"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Scherzo. Allegro"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Meditazione. Andante con moto (espressivo, ma semplice)"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Finale. Allegro non troppo (sempre leggiero, poco giocoso, ma al rigore di tempo)"
+        }
+    ]
+    },
+    {
+        "title": "Piano Sonata No. 13 in F minor, \"Sonata minacciosa\"",
+        "op": 53,
+        "no": 2,
+        "year": "1929 - 1931",
+        "instrumentation": "solo piano",
+        "approxDuration": "16:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Allegro sostenuto"
+        }
+    ]
+    },
+    {
+        "title": "Romantic Sketches for the Young",
+        "op": 54,
+        "year": "1931 - 1932",
+        "instrumentation": "solo piano",
+        "approxDuration": "23:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Prelude (Pastorale)"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Vögleins Märchen"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Märchen (Scherzo)"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Prelude (Zarter Vorwurf)"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Märchen (Der Leiermann)"
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Prelude (Hymne)"
+        }
+    ]
+    },
+    {
+        "title": "Theme with Variations in C-sharp minor",
+        "op": 55,
+        "year": "1933",
+        "instrumentation": "solo piano",
+        "approxDuration": "10:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Theme and six variations"
+        }
+    ]
+    },
+    {
+        "title": "Piano Sonata No. 14 in G Major, \"Sonata-Idyll\"",
+        "op": 56,
+        "year": "1935 - 1937",
+        "instrumentation": "solo piano",
+        "approxDuration": "12:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Pastorale. Allegretto cantabile"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Allegro moderato e cantabile"
+        }
+    ]
+    },
+    {
+        "title": "Violin Sonata No. 3 in E minor, \"Epica\"",
+        "op": 57,
+        "year": "1938",
+        "instrumentation": "violin and piano",
+        "approxDuration": "47:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Introduzione: Andante meditamente - Allegro"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Scherzo: Allegro molto vivace e leggiero"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Andante con moto"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Finale: Allegro molto"
+        }
+    ]
+    },
+    {
+        "title": "Two Pieces for Two Pianos",
+        "op": 58,
+        "year": "1940 - 1946",
+        "instrumentation": "two pianos",
+        "approxDuration": "13:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Russian Round Dance"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Knight Errant"
+        }
+    ]
+    },
+    {
+        "title": "Two Elegies",
+        "op": 59,
+        "year": "1940",
+        "instrumentation": "solo piano",
+        "approxDuration": "13:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Elegy in A minor"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Elegy in E-flat minor"
+        }
+    ]
+    },
+    {
+        "title": "Piano Concerto No. 3 in E minor, \"Ballade\"",
+        "op": 60,
+        "year": "1921 - 1926",
+        "instrumentation": "piano and orchestra",
+        "approxDuration": "36:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Con moto largamento – Allegretto con moto"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Interludium. Allegro, molto sostenuto, misterioso (al rigore di tempo)"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Finale. Allegro molto. Svegliando, eroico – Andante con moto tranquillo – Allegro molto – Coda: Maestoso, ma appassionato"
+        }
+    ]
+    },
+    {
+        "title": "Piano Quintet in C Major (posthumous)",
+        "op": "posthumous",
+        "year": "1904 - 1948",
+        "instrumentation": "piano and string quartet",
+        "approxDuration": "26:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Molto placido"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Andantino con moto"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Finale. Allegro vivace"
+        }
+    ]
+    }]
+  
+}
