@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a, button {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.music-wrapper button {
+  margin-bottom: 25px;
+}
+
+.music-wrapper h1 {
+  font-size: 20px;
+  display: inline;
+  margin-left: 20px;
+}
+
+/* catalogue */
+.list-compositions {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-row-gap: 20px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.movements li {
+  list-style-type: none;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
