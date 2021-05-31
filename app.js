@@ -33,7 +33,8 @@ function receivedData(data) {
         //         ${movements}`;
         // }
 
-        if (piece.op == "TBD") {
+        //add "no." as in "op. 53 no. 1"
+        if (piece.op == "TBD" | piece.op == "posthumous") {
             for (var i = 0; i < piece.movements.length; i++) {
                 movements += `<ul class="movements">
                 <li>${JSON.stringify(piece.movements[i]['movementNumber'])}. ${JSON.stringify(piece.movements[i]['movement']).replace(/['"]+/g, '')}</li>
