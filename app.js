@@ -14,11 +14,15 @@ function receivedData(data) {
 
     var values = data.val(); //the data itself
 
+    function arabesque() {
+      
+    
+
     let pieces = values.map(function(piece) {
 
 
         for (var i = 0; i < piece.movements.length; i++) {
-            if (piece.movements[i]['movement'].includes("Piano Sonata")) {
+            if (piece.movements[i]['movement'].includes("Arabesque")) {
                 return `<div class="piece">
                 <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
                 <p class="instrumentation">${piece.instrumentation}</p>
@@ -30,7 +34,7 @@ function receivedData(data) {
             }
         }
 
-        if (piece.title.includes("Piano Sonata")) {
+        if (piece.title.includes("Arabesque")) {
         return    `<div class="piece">
                         <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
                         <p class="instrumentation">${piece.instrumentation}</p>
@@ -39,9 +43,12 @@ function receivedData(data) {
                     </div>`;
         }
             })
+            pieces = pieces.join("");
+            piecesHTML.innerHTML = pieces;
+        }
     
-     pieces = pieces.join("");
-     piecesHTML.innerHTML = pieces;
+      document.getElementById('ara-btn').addEventListener('click', arabesque);
+    
 }
 
 function notReceivedData(error) {
