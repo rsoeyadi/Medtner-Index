@@ -1,85 +1,53 @@
-
-
 var db =  firebase.database(); //create reference to database
-
 var ref = db.ref('compositions'); //target in the database
-
 ref.once ('value', receivedData, notReceivedData); //read the data in the db, and callback functions
 
 piecesHTML = document.querySelector('.list-compositions'); //for where we will put our data later
 
-
-function receivedData(data) {
-    //we received the data; proceed with parsing it
+function receivedData(data) { 
 
     var values = data.val(); //the data itself
 
-    function arabesque() {
-      
-    
+    function passBtnText() { //closure for passing in button text
+            
+        text = this.textContent; //we bind the button text to this function and need to use 'this'
 
-    let pieces = values.map(function(piece) {
-
+        let pieces = values.map(function(piece) { //go through each object one by one and create the HTML dynamically
 
         for (var i = 0; i < piece.movements.length; i++) {
-            if (piece.movements[i]['movement'].includes("Arabesque")) {
+            if (piece.movements[i]['movement'].includes(text)) {
                 return `<div class="piece">
-                <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
-                <p class="instrumentation">${piece.instrumentation}</p>
-                <p class="year">${piece.year}</p>
-                <p class="duration">About ${piece.approxDuration} min</p>
-
-               
-            </div>`;
-            }
-        }
-
-        if (piece.title.includes("Arabesque")) {
-        return    `<div class="piece">
-                        <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
-                        <p class="instrumentation">${piece.instrumentation}</p>
-                        <p class="year">${piece.year}</p>
-                        <p class="duration">About ${piece.approxDuration} min</p>   
-                    </div>`;
-        }
-            })
-            pieces = pieces.join("");
-            piecesHTML.innerHTML = pieces;
-        }
-
-        function piano_sonata() {
-            
-            let pieces = values.map(function(piece) {
-        
-        
-                for (var i = 0; i < piece.movements.length; i++) {
-                    if (piece.movements[i]['movement'].includes("Piano Sonata")) {
-                        return `<div class="piece">
                         <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
                         <p class="instrumentation">${piece.instrumentation}</p>
                         <p class="year">${piece.year}</p>
                         <p class="duration">About ${piece.approxDuration} min</p>
+                        </div>`;
+                }
+            }
+
+        if (piece.title.includes(text)) {
+                return  `<div class="piece">
+                        <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
+                        <p class="instrumentation">${piece.instrumentation}</p>
+                        <p class="year">${piece.year}</p>
+                        <p class="duration">About ${piece.approxDuration} min</p>   
+                        </div>`;
+            }
         
-                       
-                    </div>`;
-                    }
-                }
-        
-                if (piece.title.includes("Piano Sonata")) {
-                return    `<div class="piece">
-                                <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
-                                <p class="instrumentation">${piece.instrumentation}</p>
-                                <p class="year">${piece.year}</p>
-                                <p class="duration">About ${piece.approxDuration} min</p>   
-                            </div>`;
-                }
-                    })
-                    pieces = pieces.join("");
-                    piecesHTML.innerHTML = pieces;
-                }
+        })
+                
+        pieces = pieces.join(""); //put the HTML all together (get rid of the commas separating the HTML)
+        piecesHTML.innerHTML = pieces;
+
+    }
     
-      document.getElementById('ara-btn').addEventListener('click', arabesque);
-      document.getElementById('pianoSon-btn').addEventListener('click', piano_sonata);
+    /* this is where we actually hook up the buttons to the filter */
+    
+    btns = document.getElementsByTagName('button'); //grab the buttons
+
+    for (var i = 0; i < btns.length; i++) { //loop through and bind each button and call the closure
+        btns[i].addEventListener('click', passBtnText.bind(btns[i]));
+    }
 
 }
 
