@@ -9,30 +9,73 @@ function receivedData(data) {
     var values = data.val(); //the data itself
 
     function passBtnText() { //closure for passing in button text
-            
+        
+        buttonID = this.id;
         text = this.textContent; //we bind the button text to this function and need to use 'this'
 
         let pieces = values.map(function(piece) { //go through each object one by one and create the HTML dynamically
 
-        for (var i = 0; i < piece.movements.length; i++) {
-            if (piece.movements[i]['movement'].includes(text)) {
-                return `<div class="piece">
-                        <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
-                        <p class="instrumentation">${piece.instrumentation}</p>
-                        <p class="year">${piece.year}</p>
-                        <p class="duration">About ${piece.approxDuration} min</p>
-                        </div>`;
+        if (buttonID == "allPiano-btn") {
+            for (var i = 0; i < piece.movements.length; i++) {
+                if (piece.instrumentation === "solo piano") {
+                    console.log(piece.instrumentation);
+                    return  `<div class="piece">
+                            <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
+                            <p class="instrumentation">${piece.instrumentation}</p>
+                            <p class="year">${piece.year}</p>
+                            <p class="duration">About ${piece.approxDuration} min<p>   
+                            </div>`;
                 }
             }
+        } 
+        
+            else if (buttonID == "allViolin-btn")  {
+                for (var i = 0; i < piece.movements.length; i++) {
+                    if (piece.instrumentation === "violin and piano") {
+                        console.log(piece.instrumentation);
+                        return  `<div class="piece">
+                                <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
+                                <p class="instrumentation">${piece.instrumentation}</p>
+                                <p class="year">${piece.year}</p>
+                                <p class="duration">About ${piece.approxDuration} min</p>   
+                                </div>`;
+                    }
+                }
+            } 
+        
+            else if (buttonID == "allVoice-btn") {
+                for (var i = 0; i < piece.movements.length; i++) {
+                    if (piece.instrumentation === "voice and piano") {
+                        console.log(piece.instrumentation);
+                        return  `<div class="piece">
+                                <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
+                                <p class="instrumentation">${piece.instrumentation}</p>
+                                <p class="year">${piece.year}</p>
+                                <p class="duration">About ${piece.approxDuration} min</p>   
+                                </div>`;
+                    }
+                }
+            } 
+        
+        // if (piece.title.includes(text)) {
+        //     return  `<div class="piece">
+        //             <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
+        //             <p class="instrumentation">${piece.instrumentation}</p>
+        //             <p class="year">${piece.year}</p>
+        //             <p class="duration">About ${piece.approxDuration} min</p>   
+        //             </div>`;
+        // }
 
-        if (piece.title.includes(text)) {
-                return  `<div class="piece">
-                        <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
-                        <p class="instrumentation">${piece.instrumentation}</p>
-                        <p class="year">${piece.year}</p>
-                        <p class="duration">About ${piece.approxDuration} min</p>   
-                        </div>`;
-            }
+        // for (var i = 0; i < piece.movements.length; i++) {
+        //     if (piece.movements[i]['movement'].includes(text)) {
+        //         return `<div class="piece">
+        //                 <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
+        //                 <p class="instrumentation">${piece.instrumentation}</p>
+        //                 <p class="year">${piece.year}</p>
+        //                 <p class="duration">About ${piece.approxDuration} min</p>
+        //                 </div>`;
+        //         }
+        //     }
         
         })
                 
@@ -42,7 +85,7 @@ function receivedData(data) {
     }
     
     /* this is where we actually hook up the buttons to the filter */
-    
+
     btns = document.getElementsByTagName('button'); //grab the buttons
 
     for (var i = 0; i < btns.length; i++) { //loop through and bind each button and call the closure
