@@ -16,6 +16,27 @@ function receivedData(data) {
         let pieces = values.map(function(piece) { //go through each object one by one and create the HTML dynamically
         
         //'all' buttons
+
+        if (buttonID == "allMusic-btn") {
+                return  `<div class="piece">
+                        <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
+                        <p class="instrumentation">${piece.instrumentation}</p>
+                        <p class="year">${piece.year}</p>
+                        <p class="duration">About ${piece.approxDuration} min</p>   
+                        </div>`;
+
+            for (var i = 0; i < piece.movements.length; i++) {
+                
+                    return `<div class="piece">
+                            <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
+                            <p class="instrumentation">${piece.instrumentation}</p>
+                            <p class="year">${piece.year}</p>
+                            <p class="duration">About ${piece.approxDuration} min</p>
+                            </div>`;
+                    
+                }
+            }
+        
         if (buttonID == "allPiano-btn" | buttonID == "allViolin-btn" | buttonID == "allVoice-btn") {
             if (buttonID == "allPiano-btn") {
                 for (var i = 0; i < piece.movements.length; i++) {
