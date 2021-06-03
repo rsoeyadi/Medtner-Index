@@ -248,22 +248,22 @@
     ]
     },
     {
-        "title": "Sonaten-Triade",
+        "title": "Sonaten-Triade (Piano Sonatas)",
         "op": 11,
         "year": "1906",
         "instrumentation": "solo piano",
         "approxDuration": "25:00",
         "movements": [ {
             "movementNumber": 1,
-            "movement": "Sonata in A-flat Major"
+            "movement": "Piano Sonata No. 2 in A-flat Major"
         },
         {
             "movementNumber": 2,
-            "movement": "Sonata-Elegy in D minor"
+            "movement": "Piano Sonata No. 3 in D minor, 'Sonata Elegy'"
         },
         {
             "movementNumber": 3,
-            "movement": "Sonata in C Major"
+            "movement": "Piano Sonata in C Major"
         }
     ]
     },
@@ -1475,7 +1475,7 @@
     ]
     },
     {
-        "title": "2 Pieces for 2 Pianos",
+        "title": "2 Pieces for Two Pianos",
         "op": 58,
         "year": "1940 - 1946",
         "instrumentation": "two pianos",
