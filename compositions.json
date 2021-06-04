@@ -5,6 +5,7 @@
         "year": "1896 - 1897",
         "instrumentation": "solo piano",
         "approxDuration": "20:00",
+        "misc": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Andante Cantabile"
@@ -45,6 +46,7 @@
         "year": "1896 - 1900",
         "instrumentation": "solo piano",
         "approxDuration": "15:00",
+        "misc": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Rusalka (Water Nymph)"
@@ -177,6 +179,7 @@
         "year": "1904",
         "instrumentation": "solo piano",
         "approxDuration": "11:00",
+        "misc": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Idyll"
@@ -233,6 +236,7 @@
         "year": "1906",
         "instrumentation": "solo piano",
         "approxDuration": "19:00",
+        "misc": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Maestoso severamente"
@@ -401,6 +405,7 @@
         "year": "1908",
         "instrumentation": "solo piano",
         "approxDuration": "14:30",
+        "misc": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Andante, \"Daphnis and Chloë\""
@@ -529,6 +534,7 @@
         "year": "1911 - 1913",
         "instrumentation": "solo piano",
         "approxDuration": "12:00",
+        "misc": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Allegretto commodamente in C minor"
@@ -647,10 +653,10 @@
     },
     {
         "title": "Étude in C minor",
-        "op": "TBD",
         "year": "1912",
         "instrumentation": "solo piano",
         "approxDuration": "2:40",
+        "misc": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Allegro (all'antica)"
@@ -758,11 +764,12 @@
     ]
     },
     {
-        "title": "3 Pieces",
+        "title": "Three Pieces",
         "op": 31,
         "year": "1914",
         "instrumentation": "solo piano",
         "approxDuration": "15:00",
+        "misc": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Improvisation"
@@ -1396,6 +1403,7 @@
         "year": "1931 - 1932",
         "instrumentation": "solo piano",
         "approxDuration": "23:00",
+        "misc": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Prelude (Pastorale)"
@@ -1428,6 +1436,7 @@
         "year": "1933",
         "instrumentation": "solo piano",
         "approxDuration": "10:00",
+        "misc": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Theme and six variations"
@@ -1496,6 +1505,7 @@
         "year": "1940",
         "instrumentation": "solo piano",
         "approxDuration": "13:00",
+        "misc": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Elegy in A minor"
