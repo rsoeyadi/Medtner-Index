@@ -1229,6 +1229,7 @@
         "year": "1925",
         "instrumentation": "solo piano",
         "approxDuration": "29:00",
+        "misc": true, 
         "movements": [ {
             "movementNumber": 1,
             "movement": "Theme and 16 variations"
@@ -1257,6 +1258,7 @@
         "year": "1926",
         "instrumentation": "solo piano",
         "approxDuration": "11:00",
+        "misc": true, 
         "movements": [ {
             "movementNumber": 1,
             "movement": "Hymne vor der Arbeit"
