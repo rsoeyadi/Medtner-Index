@@ -18,6 +18,14 @@ function receivedData(data) {
 
             function displayPieces(object) {
 
+                if (piece.op == undefined | piece.op == "posthumous") {
+                    return  `<div class="piece">
+                            <h1 class="title">${piece.title}</h1>
+                            <p class="instrumentation">${piece.instrumentation}</p>
+                            <p class="year">${piece.year}</p>
+                            <p class="duration">About ${piece.approxDuration} min</p>   
+                            </div>`;
+                }
                     return  `<div class="piece">
                             <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
                             <p class="instrumentation">${piece.instrumentation}</p>
@@ -30,10 +38,11 @@ function receivedData(data) {
             //'all' buttons
 
             if (buttonID == "allMusic-btn") {
-                        return displayPieces(piece);
-                }
+                return displayPieces(piece);
+            }
             
             if (buttonID == "allPiano-btn" | buttonID == "allViolin-btn" | buttonID == "allVoice-btn") {
+
                 if (buttonID == "allPiano-btn") {
                     for (var i = 0; i < piece.movements.length; i++) {
                         if (piece.instrumentation === "solo piano") {
@@ -42,25 +51,38 @@ function receivedData(data) {
                     }
                 } 
 
-            else if (buttonID == "allViolin-btn")  {
-                for (var i = 0; i < piece.movements.length; i++) {
-                    if (piece.instrumentation === "violin and piano") {
-                        return displayPieces(piece);
-                    }
-                }
-            } 
-            
-            else if (buttonID == "allVoice-btn") {
-                for (var i = 0; i < piece.movements.length; i++) {
-                    if (piece.instrumentation === "voice and piano") {
-                        return displayPieces(piece);
+                else if (buttonID == "allViolin-btn")  {
+                    for (var i = 0; i < piece.movements.length; i++) {
+                        if (piece.instrumentation === "violin and piano") {
+                            return displayPieces(piece);
                         }
                     }
                 } 
+                
+                else if (buttonID == "allVoice-btn") {
+                    for (var i = 0; i < piece.movements.length; i++) {
+                        if (piece.instrumentation === "voice and piano") {
+                            return displayPieces(piece);
+                            }
+                        }
+                    } 
             }
             
             else {
+                if (buttonID == "miscPiano-btn" && piece.misc) {
+                    return displayPieces(piece);
+                }
+
+                for (let i = 0; i < piece.movements.length; i++) {
+                    if (piece.movements[i].movement.includes(text) && (piece.instrumentation.includes(//figure out how to check that the instrumentation matches the category we're in//
+                    ))) {
+                        
+                        return displayPieces(piece);
+                    }
+                }
+
                 if (piece.title.includes(text)) {
+                    
                     return displayPieces(piece);
                     }
                 }
