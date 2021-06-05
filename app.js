@@ -74,12 +74,11 @@ function receivedData(data) {
                 }
 
                 for (let i = 0; i < piece.movements.length; i++) {
-                    if (piece.movements[i].movement.includes(text) && (piece.instrumentation.includes(//figure out how to check that the instrumentation matches the category we're in//
-                    ))) {
-                        
+                    if (piece.movements[i].movement.includes(text)) {
+
                         return displayPieces(piece);
-                    }
                 }
+            }
 
                 if (piece.title.includes(text)) {
                     
