@@ -13,11 +13,12 @@ function receivedData(data) {
             buttonID = this.id;
             text = this.textContent; //we bind the button text to this function and need to use 'this'
 
+            currentPiecesInstrumentation = $(this).parent().attr('id');
             let pieces = values.map(function(piece) { //go through each object one by one and create the HTML dynamically
             
 
             function displayPieces(object) {
-
+                
                 if (piece.op == undefined | piece.op == "posthumous") {
                     return  `<div class="piece">
                             <h1 class="title">${piece.title}</h1>
@@ -74,13 +75,16 @@ function receivedData(data) {
                 }
 
                 for (let i = 0; i < piece.movements.length; i++) {
-                    if (piece.movements[i].movement.includes(text)) {
-
+                    if (piece.movements[i].movement.includes(text) && piece.instrumentation.includes(currentPiecesInstrumentation)) {
+                        
                         return displayPieces(piece);
                 }
             }
 
-                if (piece.title.includes(text)) {
+                if ((piece.title.includes(text)) && piece.instrumentation.includes(currentPiecesInstrumentation)) {
+                    
+                    console.log("piece.instrumentation: " + piece.instrumentation);
+                    console.log("currentPiecesInstrumentation: " + currentPiecesInstrumentation);
                     
                     return displayPieces(piece);
                     }
