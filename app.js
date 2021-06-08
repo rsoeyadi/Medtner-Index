@@ -76,18 +76,17 @@ function receivedData(data) {
 
                 for (let i = 0; i < piece.movements.length; i++) {
                     if (piece.movements[i].movement.includes(text) && piece.instrumentation.includes(currentPiecesInstrumentation)) {
-                        
                         return displayPieces(piece);
                 }
             }
 
                 if ((piece.title.includes(text)) && piece.instrumentation.includes(currentPiecesInstrumentation)) {
-                    
-                    console.log("piece.instrumentation: " + piece.instrumentation);
-                    console.log("currentPiecesInstrumentation: " + currentPiecesInstrumentation);
-                    
                     return displayPieces(piece);
                     }
+                }
+
+                if (piece.instrumentation.includes(text.toLowerCase())) {
+                    return displayPieces(piece);
                 }
         })
                     

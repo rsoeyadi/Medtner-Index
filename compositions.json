@@ -820,7 +820,7 @@
         "title": "Piano Concerto No. 1 in C minor",
         "op": 33,
         "year": "1914 - 1918",
-        "instrumentation": "piano and orchestra",
+        "instrumentation": "piano concerto",
         "approxDuration": "34:00",
         "movements": [ {
             "movementNumber": 1,
@@ -1045,7 +1045,7 @@
     ]
     },
     {
-        "title": "Sonate-Vocalise mit einem Motto \"Geweihter Platz\"",
+        "title": "Sonata-Vocalise mit einem Motto \"Geweihter Platz\"",
         "op": 41,
         "no": 1,
         "year": "1922",
@@ -1277,7 +1277,7 @@
         "title": "Piano Concerto No. 2 in C minor",
         "op": 50,
         "year": "1921 - 1926",
-        "instrumentation": "piano and orchestra",
+        "instrumentation": "piano concerto",
         "approxDuration": "36:00",
         "movements": [ {
             "movementNumber": 1,
@@ -1522,7 +1522,7 @@
         "title": "Piano Concerto No. 3 in E minor, \"Ballade\"",
         "op": 60,
         "year": "1921 - 1926",
-        "instrumentation": "piano and orchestra",
+        "instrumentation": "piano concerto",
         "approxDuration": "36:00",
         "movements": [ {
             "movementNumber": 1,
@@ -1542,7 +1542,7 @@
         "title": "Piano Quintet in C Major (posthumous)",
         "op": "posthumous",
         "year": "1904 - 1948",
-        "instrumentation": "piano and string quartet",
+        "instrumentation": "piano quintet",
         "approxDuration": "26:00",
         "movements": [ {
             "movementNumber": 1,
