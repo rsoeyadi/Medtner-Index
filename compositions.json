@@ -195,7 +195,7 @@
     ]
     },
     {
-        "title": "2 Märchen (Fairy Tales)",
+        "title": "2 Skazki (Fairy Tales)",
         "op": 8,
         "year": "1905",
         "instrumentation": "solo piano",
@@ -211,7 +211,7 @@
     ]
     },
     {
-        "title": "3 Märchen (Fairy Tales)",
+        "title": "3 Skazki (Fairy Tales)",
         "op": 9,
         "year": "1906",
         "instrumentation": "solo piano",
@@ -308,7 +308,7 @@
     ]
     },
     {
-        "title": "2 Märchen (Fairy Tales)",
+        "title": "2 Skazki (Fairy Tales)",
         "op": 14,
         "year": "1906 - 1907",
         "instrumentation": "solo piano",
@@ -481,7 +481,7 @@
     ]
     },
     {
-        "title": "2 Märchen (Fairy Tales)",
+        "title": "2 Skazki (Fairy Tales)",
         "op": 20,
         "year": "1909",
         "instrumentation": "solo piano",
@@ -628,7 +628,7 @@
     ]
     },
     {
-        "title": "4 Märchen (Fairy Tales)",
+        "title": "4 Skazki (Fairy Tales)",
         "op": 26,
         "year": "1910 - 1912",
         "instrumentation": "solo piano",
@@ -837,7 +837,7 @@
     ]
     },
     {
-        "title": "4 Märchen (Fairy Tales)",
+        "title": "4 Skazki (Fairy Tales)",
         "op": 34,
         "year": "1916",
         "instrumentation": "solo piano",
@@ -861,7 +861,7 @@
     ]
     },
     {
-        "title": "4 Märchen (Fairy Tales)",
+        "title": "4 Skazki (Fairy Tales)",
         "op": 35,
         "year": "1916",
         "instrumentation": "solo piano",
@@ -1091,7 +1091,7 @@
     ]
     },
     {
-        "title": "3 Märchen (Fairy Tales)",
+        "title": "3 Skazki (Fairy Tales)",
         "op": 42,
         "year": "1921 - 1924",
         "instrumentation": "solo piano",
@@ -1237,7 +1237,7 @@
     ]
     },
     {
-        "title": "2 Märchen (Fairy Tales)",
+        "title": "2 Skazki (Fairy Tales)",
         "op": 48,
         "year": "1925",
         "instrumentation": "solo piano",
@@ -1294,7 +1294,7 @@
     ]
     },
     {
-        "title": "6 Märchen (Fairy Tales)",
+        "title": "6 Skazki (Fairy Tales)",
         "op": 51,
         "year": "1928",
         "instrumentation": "solo piano",
@@ -1412,11 +1412,11 @@
         },
         {
             "movementNumber": 2,
-            "movement": "Vögleins Märchen"
+            "movement": "Vögleins Skazki"
         },
         {
             "movementNumber": 3,
-            "movement": "Märchen (Scherzo)"
+            "movement": "Skazki (Scherzo)"
         },
         {
             "movementNumber": 4,
@@ -1539,6 +1539,46 @@
     ]
     },
     {
+        "title": "7 hinterlassene Lieder",
+        "op": "61",
+        "year": "1915",
+        "instrumentation": "voice and piano",
+        "approxDuration": "2:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Reiselied [Pesn' strannika] (Traveling Song)"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "Nachtgruß [Nochnoi privet] (Night Greeting)"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Chto v imeni tebe moem? [Was fragst du nach dem Namen mich?] (What does my name mean to you?)"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Esli zhizn' tebia obmanet... [Wenn du eines Tags enttäuscht bist...] (When you are disillusioned one day...)"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "Molitva [Gebet] (Prayer)"
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Polden' [Mittagsdunst] (Midday)"
+        },
+        {
+            "movementNumber": 7,
+            "movement": "O, veshchaia dusha moia! [Sei stille mein verzagtes Herz] (Be still my visionary heart)"
+        },
+        {
+            "movementNumber": 8,
+            "movement": "Kogda, chto svali my svoim... [Unwiederbringlich ist dahin...] (It is then completely lost...)"
+        }
+    ]
+    },
+    {
         "title": "Piano Quintet in C Major (posthumous)",
         "op": "posthumous",
         "year": "1904 - 1948",
@@ -1557,6 +1597,37 @@
             "movement": "Finale. Allegro vivace"
         }
     ]
-    }]
-  
+    }
+    ,
+    {
+        "title": "2 Cadenzas for Beethoven Piano Concerto No. 4 in G Major",
+        "op": "",
+        "year": "1910",
+        "instrumentation": "solo piano",
+        "approxDuration": "9:20",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "1st movement cadenza"
+        },
+        {
+            "movementNumber": 2,
+            "movement": "3rd movement cadenza"
+        }
+    ]
+    }
+    ,
+    {
+        "title": "Skazka (Fairy Tale) in D minor",
+        "op": "",
+        "year": "1915",
+        "instrumentation": "solo piano",
+        "approxDuration": "2:00",
+        "movements": [ {
+            "movementNumber": 1,
+            "movement": "Allegretto abbandonamente"
+        }
+    ]
+    }
+    ]
+    
 }
