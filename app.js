@@ -19,20 +19,32 @@ function receivedData(data) {
 
             function displayPieces(object) {
                 
+                var movements = "";
+
+                for (let i = 0; i < piece.movements.length; i++) {
+                    movements += `<div>${piece.movements[i].movementNumber}. ${piece.movements[i].movement}</div>`;
+                }
+
+                
+
                 if (piece.op == undefined | piece.op == "posthumous") {
                     return  `<div class="piece">
                             <h1 class="title">${piece.title}</h1>
                             <p class="instrumentation">${piece.instrumentation}</p>
                             <p class="year">${piece.year}</p>
                             <p class="duration">About ${piece.approxDuration} min</p>   
-                            </div>`;
+                            ${movements}
+                            </div> 
+                            `;
                 }
                     return  `<div class="piece">
                             <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
                             <p class="instrumentation">${piece.instrumentation}</p>
                             <p class="year">${piece.year}</p>
                             <p class="duration">About ${piece.approxDuration} min</p>   
-                            </div>`;
+                            ${movements}
+                            </div>
+                            `;
                             
                 }
 
