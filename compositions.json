@@ -1,6 +1,7 @@
 {
     "compositions": [{
         "title": "8 Stimmungsbilder (Mood Pictures)",
+        "queryTitle": "8 Stimmungsbilder",
         "op": 1,
         "year": "1896 - 1897",
         "instrumentation": "solo piano",
@@ -42,6 +43,7 @@
     },
     {
         "title": "3 Fantastic Improvisations",
+        "queryTitle": "3 Fantastic Improvisations",
         "op": 2,
         "year": "1896 - 1900",
         "instrumentation": "solo piano",
@@ -63,6 +65,7 @@
     },
     {
         "title": "3 Romances",
+        "queryTitle": "3 Romances",
         "op": 3,
         "year": "1903",
         "instrumentation": "voice and piano",
@@ -83,6 +86,7 @@
     },
     {
         "title": "4 Morceaux",
+        "queryTitle": "3 Four Pieces Op. 4",
         "op": 4,
         "year": "1897 - 1902",
         "instrumentation": "solo piano",
@@ -107,6 +111,7 @@
     },
     {
         "title": "Piano Sonata No. 1 in F minor",
+        "queryTitle": "Sonata Op. 5",
         "op": 5,
         "year": "1903",
         "instrumentation": "solo piano",
@@ -131,6 +136,7 @@
     },
     {
         "title": "9 Goethe Songs",
+        "queryTitle": "9 Goethe Songs, Op. 6 ",
         "op": 6,
         "year": "1906",
         "instrumentation": "voice and piano",
@@ -175,6 +181,7 @@
     },
     {
         "title": "3 Arabesques",
+        "queryTitle": "3 Arabesques, Op. 7",
         "op": 7,
         "year": "1904",
         "instrumentation": "solo piano",
@@ -196,6 +203,7 @@
     },
     {
         "title": "2 Skazki (Fairy Tales)",
+        "queryTitle": "Fairy Tales Op. 8",
         "op": 8,
         "year": "1905",
         "instrumentation": "solo piano",
@@ -212,26 +220,28 @@
     },
     {
         "title": "3 Skazki (Fairy Tales)",
+        "queryTitle": "Fairy Tales Op. 9",
         "op": 9,
         "year": "1906",
         "instrumentation": "solo piano",
         "approxDuration": "10:00",
         "movements": [ {
             "movementNumber": 1,
-            "movement": "Allegro Inquieto"
+            "movement": "Tale in F minor"
         },
         {
             "movementNumber": 2,
-            "movement": "Allegro alla serenata, con alcuna licenza"
+            "movement": "Tale in C Major"
         },
         {
             "movementNumber": 3,
-            "movement": "Allegretto vivo, odoroso"
+            "movement": "Tale in G Major"
         }
     ]
     },
     {
         "title": "3 Dithyrambs",
+        "queryTitle": "Op. 10",
         "op": 10,
         "year": "1906",
         "instrumentation": "solo piano",
@@ -253,6 +263,7 @@
     },
     {
         "title": "Sonaten-Triade (Piano Sonatas)",
+        "queryTitle": "Sonata Triad",
         "op": 11,
         "year": "1906",
         "instrumentation": "solo piano",
@@ -273,6 +284,7 @@
     },
     {
         "title": "3 Poems of Heine",
+        "queryTitle": "Op. 12",
         "op": 12,
         "year": "1907",
         "instrumentation": "voice and piano",
@@ -293,6 +305,7 @@
     },
     {
         "title": "2 (Russian) Poems",
+        "queryTitle": "2 Poems, Op. 13",
         "op": 13,
         "year": "1907",
         "instrumentation": "voice and piano",
@@ -309,6 +322,7 @@
     },
     {
         "title": "2 Skazki (Fairy Tales)",
+        "queryTitle": "Op. 14",
         "op": 14,
         "year": "1906 - 1907",
         "instrumentation": "solo piano",
@@ -325,6 +339,7 @@
     },
     {
         "title": "12 Goethe Songs",
+        "queryTitle": "Op. 15",
         "op": 15,
         "year": "1907 - 1909",
         "instrumentation": "voice and piano",
@@ -381,6 +396,7 @@
     },
     {
         "title": "3 Nocturnes for Violin and Piano",
+        "queryTitle": "Op. 16",
         "op": 16,
         "year": "1907",
         "instrumentation": "violin and piano",
@@ -401,6 +417,7 @@
     },
     {
         "title": "3 Novellen",
+        "queryTitle": "Op. 17",
         "op": 17,
         "year": "1908",
         "instrumentation": "solo piano",
@@ -422,6 +439,7 @@
     },
     {
         "title": "6 Poems of Goethe",
+        "queryTitle": "Op. 18",
         "op": 18,
         "year": "1908",
         "instrumentation": "voice and piano",
@@ -454,6 +472,7 @@
     },
     {
         "title": "5 Poems of Nietzsche",
+        "queryTitle": "Op. 19",
         "op": 19,
         "year": "1910 - 1912",
         "instrumentation": "voice and piano",
@@ -482,6 +501,7 @@
     },
     {
         "title": "2 Skazki (Fairy Tales)",
+        "queryTitle": "Op. 20 Fairy Tales",
         "op": 20,
         "year": "1909",
         "instrumentation": "solo piano",
@@ -498,6 +518,7 @@
     },
     {
         "title": "Violin Sonata No. 1 in B minor",
+        "queryTitle": "Violin Sonata No. 1 in B minor",
         "op": 21,
         "year": "1909",
         "instrumentation": "violin and piano",
@@ -518,6 +539,7 @@
     },
     {
         "title": "Piano Sonata No. 5 in G minor",
+        "queryTitle": "Piano Sonata Op. 22 G minor",
         "op": 22,
         "year": "1901 - 1910",
         "instrumentation": "solo piano",
@@ -530,6 +552,7 @@
     },
     {
         "title": "4 Lyric Fragments",
+        "queryTitle": "4 Lyric Fragments",
         "op": 23,
         "year": "1911 - 1913",
         "instrumentation": "solo piano",
@@ -555,6 +578,7 @@
     },
     {
         "title": "8 (Russian) Poems",
+        "queryTitle": "Op. 24",
         "op": 24,
         "year": "1911",
         "instrumentation": "voice and piano",
@@ -595,6 +619,7 @@
     },
     {
         "title": "Piano Sonata No. 6 in C minor",
+        "queryTitle": "Sonata Skazka Op. 25 No. 1",
         "op": 25,
         "no": 1,
         "year": "1910 - 1911",
@@ -615,7 +640,8 @@
     ]
     },
     {
-        "title": "Piano Sonata No. 7 in E minor, \"Nightwind\"",
+        "title": "Piano Sonata No. 7 in E minor, \"Night Wind\"",
+        "queryTitle": "Night Wind Sonata",
         "op": 25,
         "no": 2,
         "year": "1910 - 1911",
@@ -629,6 +655,7 @@
     },
     {
         "title": "4 Skazki (Fairy Tales)",
+        "queryTitle": "Op. 26 Fairy Tales",
         "op": 26,
         "year": "1910 - 1912",
         "instrumentation": "solo piano",
@@ -653,6 +680,7 @@
     },
     {
         "title": "Étude in C minor",
+        "queryTitle": "Etude in C minor",
         "year": "1912",
         "instrumentation": "solo piano",
         "approxDuration": "2:40",
@@ -665,6 +693,7 @@
     },
     {
         "title": "Piano Sonata No. 8 in F-sharp Major, \"Sonate-Ballade\"",
+        "queryTitle": "Sonata Ballade",
         "op": 27,
         "year": "1913 - 1914",
         "instrumentation": "solo piano",
@@ -681,6 +710,7 @@
     },
     {
         "title": "7 (Russian) Poems",
+        "queryTitle": "7 Poems, Op. 28",
         "op": 28,
         "year": "1913",
         "instrumentation": "voice and piano",
@@ -717,6 +747,7 @@
     },
     {
         "title": "7 Pushkin Poems",
+        "queryTitle": "7 Poems after Pushkin",
         "op": 29,
         "year": "1913",
         "instrumentation": "voice and piano",
@@ -753,6 +784,7 @@
     },
     {
         "title": "Piano Sonata No. 9 in A minor, \"War Sonata\"",
+        "queryTitle": "Op. 30 Sonata",
         "op": 30,
         "year": "1914",
         "instrumentation": "solo piano",
@@ -786,6 +818,7 @@
     },
     {
         "title": "6 Pushkin Poems",
+        "queryTitle": "Op. 32",
         "op": 32,
         "year": "1915",
         "instrumentation": "voice and piano",
@@ -818,6 +851,7 @@
     },
     {
         "title": "Piano Concerto No. 1 in C minor",
+        "queryTitle": "Piano Concerto 1",
         "op": 33,
         "year": "1914 - 1918",
         "instrumentation": "piano concerto",
@@ -838,6 +872,7 @@
     },
     {
         "title": "4 Skazki (Fairy Tales)",
+        "queryTitle": "Op. 34 Fairy Tales",
         "op": 34,
         "year": "1916",
         "instrumentation": "solo piano",
@@ -862,6 +897,7 @@
     },
     {
         "title": "4 Skazki (Fairy Tales)",
+        "queryTitle": "Op. 35 Fairy Tales",
         "op": 35,
         "year": "1916",
         "instrumentation": "solo piano",
@@ -886,6 +922,7 @@
     },
     {
         "title": "6 Pushkin Poems",
+        "queryTitle": "Op. 36",
         "op": 36,
         "year": "1915",
         "instrumentation": "voice and piano",
@@ -918,6 +955,7 @@
     },
     {
         "title": "5 Poems by Tyutchev and Fet",
+        "queryTitle": "Op. 37",
         "op": 37,
         "year": "1918 - 1920",
         "instrumentation": "voice and piano",
@@ -946,6 +984,7 @@
     },
     {
         "title": "Forgotten Melodies, First Cycle",
+        "queryTitle": "Forgotten Melodies Op. 38",
         "op": 38,
         "year": "1919 - 1922",
         "instrumentation": "solo piano",
@@ -986,6 +1025,7 @@
     },
     {
         "title": "Forgotten Melodies, Second Cycle",
+        "queryTitle": "Forgotten Melodies Op. 39",
         "op": 39,
         "year": "1919 - 1920",
         "instrumentation": "solo piano",
@@ -1014,6 +1054,7 @@
     },
     {
         "title": "Forgotten Melodies, Third Cycle",
+        "queryTitle": "Forgotten Melodies Op. 40",
         "op": 40,
         "year": "1919 - 1920",
         "instrumentation": "solo piano",
@@ -1046,6 +1087,7 @@
     },
     {
         "title": "Sonata-Vocalise mit einem Motto \"Geweihter Platz\"",
+        "queryTitle": "Sonata Vocalise",
         "op": 41,
         "no": 1,
         "year": "1922",
@@ -1063,6 +1105,7 @@
     },
     {
         "title": "Suite-Vocalise in F minor",
+        "queryTitle": "Suite Vocalise",
         "op": 41,
         "no": 2,
         "year": "1927",
@@ -1092,6 +1135,7 @@
     },
     {
         "title": "3 Skazki (Fairy Tales)",
+        "queryTitle": "Op. 42 Fairy Tales",
         "op": 42,
         "year": "1921 - 1924",
         "instrumentation": "solo piano",
@@ -1112,6 +1156,7 @@
     },
     {
         "title": "2 Canzonas with Dances for Violin and Piano",
+        "queryTitle": "Op. 43",
         "op": 43,
         "year": "1921 - 1924",
         "instrumentation": "violin and piano",
@@ -1136,6 +1181,7 @@
     },
     {
         "title": "Violin Sonata No. 2 in G Major",
+        "queryTitle": "Violin Sonata No. 2 in G Major",
         "op": 44,
         "year": "1922 - 1925",
         "instrumentation": "violin and piano",
@@ -1164,6 +1210,7 @@
     },
     {
         "title": "4 Poems by Pushkin and Tyutchev",
+        "queryTitle": "Op. 45",
         "op": 45,
         "year": "1924",
         "instrumentation": "voice and piano",
@@ -1188,6 +1235,7 @@
     },
     {
         "title": "7 Poems by Goethe, Eichendorff, and Chamisso",
+        "queryTitle": "Op. 46",
         "op": 46,
         "year": "1922 - 1924",
         "instrumentation": "voice and piano",
@@ -1225,6 +1273,7 @@
     },
     {
         "title": "Second Improvisation in F-sharp minor",
+        "queryTitle": "Op. 47",
         "op": 47,
         "year": "1925",
         "instrumentation": "solo piano",
@@ -1238,6 +1287,7 @@
     },
     {
         "title": "2 Skazki (Fairy Tales)",
+        "queryTitle": "Op. 48",
         "op": 48,
         "year": "1925",
         "instrumentation": "solo piano",
@@ -1254,6 +1304,7 @@
     },
     {
         "title": "3 Hymns in Praise of Toil",
+        "queryTitle": "Op. 49",
         "op": 49,
         "year": "1926",
         "instrumentation": "solo piano",
@@ -1275,6 +1326,7 @@
     },
     {
         "title": "Piano Concerto No. 2 in C minor",
+        "queryTitle": "Piano Concerto No. 2 in C minor",
         "op": 50,
         "year": "1921 - 1926",
         "instrumentation": "piano concerto",
@@ -1295,6 +1347,7 @@
     },
     {
         "title": "6 Skazki (Fairy Tales)",
+        "queryTitle": "Op. 51 Fairy Tales",
         "op": 51,
         "year": "1928",
         "instrumentation": "solo piano",
@@ -1327,6 +1380,7 @@
     },
     {
         "title": "7 Pushkin Poems",
+        "queryTitle": "Songs Op 52",
         "op": 52,
         "year": "1929",
         "instrumentation": "voice and piano",
@@ -1363,6 +1417,7 @@
     },
     {
         "title": "Piano Sonata No. 12 in B-flat minor, \"Sonata Romantica\"",
+        "queryTitle": "Sonata Romantica",
         "op": 53,
         "no": 1,
         "year": "1929 - 1930",
@@ -1388,6 +1443,7 @@
     },
     {
         "title": "Piano Sonata No. 13 in F minor, \"Sonata minacciosa\"",
+        "queryTitle": "Sonata Minacciosa",
         "op": 53,
         "no": 2,
         "year": "1929 - 1931",
@@ -1401,6 +1457,7 @@
     },
     {
         "title": "Romantic Sketches for the Young",
+        "queryTitle": "Romantic Sketches for the Young",
         "op": 54,
         "year": "1931 - 1932",
         "instrumentation": "solo piano",
@@ -1434,6 +1491,7 @@
     },
     {
         "title": "Theme with Variations in C-sharp minor",
+        "queryTitle": "Theme with Variations",
         "op": 55,
         "year": "1933",
         "instrumentation": "solo piano",
@@ -1447,6 +1505,7 @@
     },
     {
         "title": "Piano Sonata No. 14 in G Major, \"Sonata-Idyll\"",
+        "queryTitle": "Sonata Idyll",
         "op": 56,
         "year": "1935 - 1937",
         "instrumentation": "solo piano",
@@ -1463,6 +1522,7 @@
     },
     {
         "title": "Violin Sonata No. 3 in E minor, \"Epica\"",
+        "queryTitle": "Violin Sonata No. 3 in E minor",
         "op": 57,
         "year": "1938",
         "instrumentation": "violin and piano",
@@ -1487,6 +1547,7 @@
     },
     {
         "title": "2 Pieces for Two Pianos",
+        "queryTitle": "Two Pianos Op. 58",
         "op": 58,
         "year": "1940 - 1946",
         "instrumentation": "two pianos",
@@ -1503,6 +1564,7 @@
     },
     {
         "title": "2 Elegies",
+        "queryTitle": "Elegies Op. 59",
         "op": 59,
         "year": "1940",
         "instrumentation": "solo piano",
@@ -1520,6 +1582,7 @@
     },
     {
         "title": "Piano Concerto No. 3 in E minor, \"Ballade\"",
+        "queryTitle": "Piano Concerto No. 3 in E minor",
         "op": 60,
         "year": "1921 - 1926",
         "instrumentation": "piano concerto",
@@ -1540,6 +1603,7 @@
     },
     {
         "title": "7 hinterlassene Lieder",
+        "queryTitle": "Op. 61",
         "op": "61",
         "year": "1915",
         "instrumentation": "voice and piano",
@@ -1580,6 +1644,7 @@
     },
     {
         "title": "Piano Quintet in C Major (posthumous)",
+        "queryTitle": "Piano Quintet in C Major",
         "op": "posthumous",
         "year": "1904 - 1948",
         "instrumentation": "piano quintet",
@@ -1601,6 +1666,7 @@
     ,
     {
         "title": "2 Cadenzas for Beethoven Piano Concerto No. 4 in G Major",
+        "queryTitle": "Beethoven Cadenza",
         "op": "",
         "year": "1910",
         "instrumentation": "solo piano",
@@ -1618,6 +1684,7 @@
     ,
     {
         "title": "Skazka (Fairy Tale) in D minor",
+        "queryTitle": "Fairy Tale in D minor",
         "op": "",
         "year": "1915",
         "instrumentation": "solo piano",
