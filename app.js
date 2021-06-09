@@ -16,10 +16,14 @@ function receivedData(data) {
             currentPiecesInstrumentation = $(this).parent().attr('id');
             let pieces = values.map(function(piece) { //go through each object one by one and create the HTML dynamically
             
+            function createTitleQuery(title) {
+                return "Medtner " + title.replace(/\s/g, '+').toLowerCase();
+            }
 
-            function displayPieces(object) {
+            function displayPieces() {
                 
                 var movements = "";
+                var youtubeQuery = createTitleQuery(piece.queryTitle);
 
                 for (let i = 0; i < piece.movements.length; i++) {
                     movements += `<div>${piece.movements[i].movementNumber}. ${piece.movements[i].movement}</div>`;
@@ -28,7 +32,7 @@ function receivedData(data) {
                 if (piece.op == "" | piece.op == "posthumous") {
                     
                     return  `<div class="piece">
-                            <h1 class="title">${piece.title}</h1>
+                            <h1 class="title"><a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">${piece.title}</a></h1>
                             <p class="instrumentation">${piece.instrumentation}</p>
                             <p class="year">${piece.year}</p>
                             <p class="duration">About ${piece.approxDuration} min</p>   
@@ -38,7 +42,7 @@ function receivedData(data) {
                 }
                     
                 return  `<div class="piece">
-                        <h1 class="title">${piece.title}, Op. ${piece.op}</h1>
+                        <h1 class="title"><a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">${piece.title}, Op. ${piece.op}</a></h1>
                         <p class="instrumentation">${piece.instrumentation}</p>
                         <p class="year">${piece.year}</p>
                         <p class="duration">About ${piece.approxDuration} min</p>   
