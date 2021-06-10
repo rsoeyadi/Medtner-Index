@@ -26,7 +26,12 @@ function receivedData(data) {
                 var youtubeQuery = createTitleQuery(piece.queryTitle);
 
                 for (let i = 0; i < piece.movements.length; i++) {
+                    if (piece.movements[i].movementNumber == "") {
+                        break;
+                    }
+                    else {
                     movements += `<div>${piece.movements[i].movementNumber}. ${piece.movements[i].movement}</div>`;
+                    }
                 }
 
                 if (piece.op == "" | piece.op == "posthumous" | piece.op == undefined) {
@@ -46,7 +51,7 @@ function receivedData(data) {
                             `;
                 }
                     
-                if(piece.hasOwnProperty('no')){
+                if (piece.hasOwnProperty('no')){
                     return  `<div class="piece">
                         <div class="piece__content">
                         <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
