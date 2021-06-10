@@ -69,6 +69,11 @@ button:hover {
 
 /* catalogue */
 .list-compositions {
+  /* use flexbox to make all the boxes the same height */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   /* to cover the entire section */
   width: 100vw;
@@ -79,31 +84,17 @@ button:hover {
 }
 
 .piece {
-  width: 60%;
+  height: 70%;
+  width: 100%;
   padding: auto;
-  border-color: #494949;
-  border-style: solid;
-  border-bottom: solid;
-  border-radius: 22px;
-  border-bottom-color: #494949;
-  box-shadow: 0 10px 5px #777;
-  transform: rotate(-1.5deg);
-  -webkit-box-shadow: 0 10px 5px #777;
-  -moz-box-shadow: 0 10px 5px #777;
-  -webkit-transform: rotate(-1.5deg);
-  -moz-transform: rotate(-1.5deg);
-  -o-transform: rotate(-1.5deg);
-  -ms-transform: rotate(-1.5deg);
 }
 .piece__container {
   width: 100%;
   margin: 20px;
   display: grid;
-  --auto-grid-min-size: 32rem;
+  --auto-grid-min-size: 24rem;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-  grid-gap: 1rem;
   grid-row-gap: 20px;
-  align-items: center;
   justify-items: center;
 }
 .piece__content {
