@@ -42,11 +42,16 @@ header {
 }
 
 button {
+  transition: all 0.3s ease;
   margin-left: 20px;
   padding: 9px 25px;
   border: none;
   border-radius: 50px;
   cursor: pointer;
+}
+
+button:hover {
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
 }
 
 .music-wrapper button {
@@ -79,13 +84,13 @@ button {
   border-radius: 22px;
   border-bottom-color: #494949;
   box-shadow: 0 10px 5px #777;
-  transform: rotate(-2deg);
+  transform: rotate(-1.5deg);
   -webkit-box-shadow: 0 10px 5px #777;
   -moz-box-shadow: 0 10px 5px #777;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg);
-  -ms-transform: rotate(-2deg);
+  -webkit-transform: rotate(-1.5deg);
+  -moz-transform: rotate(-1.5deg);
+  -o-transform: rotate(-1.5deg);
+  -ms-transform: rotate(-1.5deg);
 }
 .piece__container {
   width: 100%;
@@ -106,13 +111,6 @@ button {
   border-radius: 5px;
   padding: 12px;
   cursor: pointer;
-}
-.piece .piece:hover {
-  background-color: blue;
-}
-.piece .piece__content a:hover {
-  color: red;
-  transition: 0.4s all ease-in-out;
 }
 .piece .piece__title {
   font-size: 1.4em;
