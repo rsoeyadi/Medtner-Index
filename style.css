@@ -43,10 +43,11 @@ header {
 
 button {
   transition: all 0.3s ease;
+  background-color: #f0f0f0;
   margin-left: 20px;
   padding: 9px 25px;
   border: none;
-  border-radius: 50px;
+  border-radius: 30px;
   cursor: pointer;
 }
 
