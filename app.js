@@ -29,7 +29,7 @@ function receivedData(data) {
                     movements += `<div>${piece.movements[i].movementNumber}. ${piece.movements[i].movement}</div>`;
                 }
 
-                if (piece.op == "" | piece.op == "posthumous") {
+                if (piece.op == "" | piece.op == "posthumous" | piece.op == undefined) {
                     
                     return  `<div class="piece">
                             <div class="piece__content">
