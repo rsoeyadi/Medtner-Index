@@ -33,24 +33,49 @@ function receivedData(data) {
                     
                     return  `<div class="piece">
                             <div class="piece__content">
-                            <h1 class="piece__title"><a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">${piece.title}</a></h1>
+                            <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
+                            <h1 class="piece__title">${piece.title}</h1>
                             <p class="piece__instrumentation">${piece.instrumentation}</p>
                             <p class="piece__year">${piece.year}</p>
                             <p class="piece__duration">About ${piece.approxDuration} min</p>   
                             ${movements}
+                            </a>
                             </div>
+                            
                             </div> 
                             `;
                 }
                     
-                return  `<div class="piece">
+                if(piece.hasOwnProperty('no')){
+                    return  `<div class="piece">
                         <div class="piece__content">
-                        <h1 class="piece__title"><a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">${piece.title}, Op. ${piece.op}</a></h1>
+                        <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
+                        <h2 class="piece__op">Op. ${piece.op}, No. ${piece.no}</h1>
+                        <h1 class="piece__title">${piece.title}</h1>
                         <p class="piece__instrumentation">${piece.instrumentation}</p>
                         <p class="piece__year">${piece.year}</p>
                         <p class="piece__duration">About ${piece.approxDuration} min</p>   
                         ${movements}
+                        </a>
                         </div>
+                        
+                        </div>
+                        `;     
+                }
+
+                return  `<div class="piece">
+                        
+                        <div class="piece__content">
+                        <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
+                        <h2 class="piece__op">Op. ${piece.op}</h1>
+                        <h1 class="piece__title">${piece.title}</h1>
+                        <p class="piece__instrumentation">${piece.instrumentation}</p>
+                        <p class="piece__year">${piece.year}</p>
+                        <p class="piece__duration">About ${piece.approxDuration} min</p>   
+                        ${movements}
+                        </a>
+                        </div>
+                        
                         </div>
                         `;       
                 }
