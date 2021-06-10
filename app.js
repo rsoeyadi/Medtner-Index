@@ -2,7 +2,7 @@ var db =  firebase.database(); //create reference to database
 var ref = db.ref('compositions'); //target in the database
 ref.once ('value', receivedData, notReceivedData); //read the data in the db, and callback functions
 
-piecesHTML = document.querySelector('.list-compositions'); //for where we will put our data later
+piecesHTML = document.querySelector('.piece__container'); //for where we will put our data later
 
 function receivedData(data) { 
 
@@ -32,21 +32,25 @@ function receivedData(data) {
                 if (piece.op == "" | piece.op == "posthumous") {
                     
                     return  `<div class="piece">
-                            <h1 class="title"><a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">${piece.title}</a></h1>
-                            <p class="instrumentation">${piece.instrumentation}</p>
-                            <p class="year">${piece.year}</p>
-                            <p class="duration">About ${piece.approxDuration} min</p>   
+                            <div class="piece__content">
+                            <h1 class="piece__title"><a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">${piece.title}</a></h1>
+                            <p class="piece__instrumentation">${piece.instrumentation}</p>
+                            <p class="piece__year">${piece.year}</p>
+                            <p class="piece__duration">About ${piece.approxDuration} min</p>   
                             ${movements}
+                            </div>
                             </div> 
                             `;
                 }
                     
                 return  `<div class="piece">
-                        <h1 class="title"><a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">${piece.title}, Op. ${piece.op}</a></h1>
-                        <p class="instrumentation">${piece.instrumentation}</p>
-                        <p class="year">${piece.year}</p>
-                        <p class="duration">About ${piece.approxDuration} min</p>   
+                        <div class="piece__content">
+                        <h1 class="piece__title"><a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">${piece.title}, Op. ${piece.op}</a></h1>
+                        <p class="piece__instrumentation">${piece.instrumentation}</p>
+                        <p class="piece__year">${piece.year}</p>
+                        <p class="piece__duration">About ${piece.approxDuration} min</p>   
                         ${movements}
+                        </div>
                         </div>
                         `;       
                 }
