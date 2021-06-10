@@ -278,7 +278,7 @@
         },
         {
             "movementNumber": 3,
-            "movement": "Piano Sonata in C Major"
+            "movement": "Piano Sonata No. 4 in C Major"
         }
     ]
     },
@@ -1210,7 +1210,7 @@
     ]
     },
     {
-        "title": "4 Poems by Pushkin and Tyutchev",
+        "title": "4 Poems by Tyutchev and Pushkin",
         "queryTitle": "Op. 45",
         "op": 45,
         "year": "1924",
@@ -1691,8 +1691,8 @@
         "instrumentation": "solo piano",
         "approxDuration": "2:00",
         "movements": [ {
-            "movementNumber": 1,
-            "movement": "Allegretto abbandonamente"
+            "movementNumber": "",
+            "movement": ""
         }
     ]
     }
