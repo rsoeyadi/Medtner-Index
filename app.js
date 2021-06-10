@@ -38,7 +38,7 @@ function receivedData(data) {
                     
                     return  `<div class="piece">
                             <div class="piece__content">
-                            <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
+                            <a href="https://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
                             <h1 class="piece__title">${piece.title}</h1>
                             <p class="piece__instrumentation">${piece.instrumentation}</p>
                             <p class="piece__year">${piece.year}</p>
