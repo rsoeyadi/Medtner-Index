@@ -14,7 +14,7 @@ function receivedData(data) {
             text = this.textContent; //we bind the button text to this function and need to use 'this'
 
             currentPiecesInstrumentation = $(this).parent().attr('id').replace(/\-/g, ' ');
-            
+
             let pieces = values.map(function(piece) { //go through each object one by one and create the HTML dynamically
             
             function createTitleQuery(title) {
@@ -38,53 +38,47 @@ function receivedData(data) {
                 if (piece.op == "" | piece.op == "posthumous" | piece.op == undefined) {
                     
                     return  `<div class="piece">
-                            <div class="piece__content">
-                            <a href="https://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
-                            <h1 class="piece__title">${piece.title}</h1>
-                            </a>
-                            <p class="piece__instrumentation">${piece.instrumentation}</p>
-                            <p class="piece__year">${piece.year}</p>
-                            <p class="piece__duration">About ${piece.approxDuration} min</p>   
-                            ${movements}
-                            </div>
-                            
-                            </div> 
-                            `;
+                                <div class="piece__content">
+                                    <a href="https://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
+                                        <h1 class="piece__title">${piece.title}</h1>
+                                    </a>
+                                    <p class="piece__instrumentation">${piece.instrumentation}</p>
+                                    <p class="piece__year">${piece.year}</p>
+                                    <p class="piece__duration">About ${piece.approxDuration} min</p>   
+                                    ${movements}
+                                 </div>
+                            </div>`;
                 }
                     
                 if (piece.hasOwnProperty('no')){
-                    return  `<div class="piece">
-                        <div class="piece__content">
-                        <h2 class="piece__op">Op. ${piece.op}, No. ${piece.no}</h1>
-                        <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
-                        <h1 class="piece__title">${piece.title}</h1>
-                        </a>
-                        <p class="piece__instrumentation">${piece.instrumentation}</p>
-                        <p class="piece__year">${piece.year}</p>
-                        <p class="piece__duration">About ${piece.approxDuration} min</p>   
-                        ${movements}
-                        </div>
-                        
-                        </div>
-                        `;     
+                    
+                    return `<div class="piece">
+                                <div class="piece__content">
+                                    <h2 class="piece__op">Op. ${piece.op}, No. ${piece.no}</h1>
+                                        <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
+                                            <h1 class="piece__title">${piece.title}</h1>
+                                        </a>
+                                    <p class="piece__instrumentation">${piece.instrumentation}</p>
+                                    <p class="piece__year">${piece.year}</p>
+                                    <p class="piece__duration">About ${piece.approxDuration} min</p>   
+                                    ${movements}
+                                </div>  
+                            </div>`;     
                 }
 
                 return  `<div class="piece">
-                        
-                        <div class="piece__content">
-                        <h2 class="piece__op">Op. ${piece.op}</h1>
-                        <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
-                        <h1 class="piece__title">${piece.title}</h1>
-                        </a>
-                        <p class="piece__instrumentation">${piece.instrumentation}</p>
-                        <p class="piece__year">${piece.year}</p>
-                        <p class="piece__duration">About ${piece.approxDuration} min</p>   
-                        ${movements}
-                        </div>
-                        
-                        </div>
-                        `;       
-                }
+                            <div class="piece__content">
+                                <h2 class="piece__op">Op. ${piece.op}</h1>
+                                <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
+                                    <h1 class="piece__title">${piece.title}</h1>
+                                </a>
+                                <p class="piece__instrumentation">${piece.instrumentation}</p>
+                                <p class="piece__year">${piece.year}</p>
+                                <p class="piece__duration">About ${piece.approxDuration} min</p>   
+                                ${movements}
+                            </div>
+                        </div>`;       
+            }
 
             //'all' buttons
             if (buttonID == "allMusic-btn") {
@@ -115,9 +109,11 @@ function receivedData(data) {
                         }
                      }
                 } 
+
             }
             
             else {
+                
                 if (buttonID == "miscPiano-btn" && piece.misc) {
                     return displayPieces(piece);
                 }
