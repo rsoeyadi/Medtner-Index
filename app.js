@@ -22,7 +22,7 @@ function receivedData(data) {
 
             function displayPieces() {
                 
-                var movements = "";
+                var movements = "<h4>Movements</h4>";
                 var youtubeQuery = createTitleQuery(piece.queryTitle);
 
                 for (let i = 0; i < piece.movements.length; i++) {
