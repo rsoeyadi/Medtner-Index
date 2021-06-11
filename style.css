@@ -25,7 +25,6 @@ header {
 
 .logo {
   margin-right: auto;
-  cursor: pointer;
 }
 
 .nav-links {
@@ -84,7 +83,7 @@ button:hover {
 }
 
 .piece {
-  height: 70%;
+  height: 50%;
   width: 100%;
   padding: auto;
 }
@@ -94,7 +93,6 @@ button:hover {
   display: grid;
   --auto-grid-min-size: 24rem;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-  grid-row-gap: 20px;
   justify-items: center;
 }
 .piece__content {
@@ -104,14 +102,15 @@ button:hover {
   margin: 10px auto;
   border-radius: 5px;
   padding: 12px;
-  cursor: pointer;
 }
 .piece .piece__op {
   font-size: 2em;
   font-weight: bold;
 }
 .piece .piece__title {
-  font-size: 1.4em;
+  text-decoration: underline;
+  color: #2424ee;
+  font-size: 1.2em;
 }
 .piece .piece__duration {
   margin-bottom: 10px;
