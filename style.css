@@ -44,7 +44,7 @@ button {
   transition: all 0.3s ease;
   background-color: #f0f0f0;
   margin-left: 20px;
-  padding: 9px 25px;
+  padding: 5px 10px;
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -54,10 +54,6 @@ button:hover {
   box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
   -webkit-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
   -moz-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
-}
-
-.music-wrapper #solo-piano {
-  align-items: center;
 }
 
 .music-wrapper button {
