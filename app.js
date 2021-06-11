@@ -40,11 +40,11 @@ function receivedData(data) {
                             <div class="piece__content">
                             <a href="https://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
                             <h1 class="piece__title">${piece.title}</h1>
+                            </a>
                             <p class="piece__instrumentation">${piece.instrumentation}</p>
                             <p class="piece__year">${piece.year}</p>
                             <p class="piece__duration">About ${piece.approxDuration} min</p>   
                             ${movements}
-                            </a>
                             </div>
                             
                             </div> 
@@ -54,14 +54,14 @@ function receivedData(data) {
                 if (piece.hasOwnProperty('no')){
                     return  `<div class="piece">
                         <div class="piece__content">
-                        <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
                         <h2 class="piece__op">Op. ${piece.op}, No. ${piece.no}</h1>
+                        <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
                         <h1 class="piece__title">${piece.title}</h1>
+                        </a>
                         <p class="piece__instrumentation">${piece.instrumentation}</p>
                         <p class="piece__year">${piece.year}</p>
                         <p class="piece__duration">About ${piece.approxDuration} min</p>   
                         ${movements}
-                        </a>
                         </div>
                         
                         </div>
@@ -71,14 +71,14 @@ function receivedData(data) {
                 return  `<div class="piece">
                         
                         <div class="piece__content">
-                        <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
                         <h2 class="piece__op">Op. ${piece.op}</h1>
+                        <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
                         <h1 class="piece__title">${piece.title}</h1>
+                        </a>
                         <p class="piece__instrumentation">${piece.instrumentation}</p>
                         <p class="piece__year">${piece.year}</p>
                         <p class="piece__duration">About ${piece.approxDuration} min</p>   
                         ${movements}
-                        </a>
                         </div>
                         
                         </div>
