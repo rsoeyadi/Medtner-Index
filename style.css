@@ -56,6 +56,10 @@ button:hover {
   -moz-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
 }
 
+.music-wrapper #solo-piano {
+  align-items: center;
+}
+
 .music-wrapper button {
   margin-bottom: 25px;
 }
