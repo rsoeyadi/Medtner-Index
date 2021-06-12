@@ -22,9 +22,7 @@ function receivedData(data) {
             }
 
             function displayPieces() {
-                
-           
-
+            
                 var movements = "<h4>Movements</h4>";
                 var youtubeQuery = createTitleQuery(piece.queryTitle);
 
@@ -84,6 +82,9 @@ function receivedData(data) {
 
             //'all' buttons
             if (buttonID == "allMusic-btn") {
+                for (var i = 0; i < genreDivs.length; i++) {
+                    genreDivs[i].classList.add('hidden');
+                }
                 return displayPieces(piece);
             }
             
