@@ -40,6 +40,19 @@ header {
   transition: all 0.3s ease 0s;
 }
 
+.genre-btn {
+  transition: all 0.3s ease;
+  background-color: #e2e1e1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.genre-btn:hover {
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  -webkit-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  -moz-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+}
+
 button {
   transition: all 0.3s ease;
   background-color: #f0f0f0;
@@ -83,7 +96,7 @@ button:hover {
 }
 
 .music-wrapper button {
-  margin: 5px;
+  margin: 5px 5px 5px 0;
 }
 
 .music-wrapper h1 {
