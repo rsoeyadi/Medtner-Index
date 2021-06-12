@@ -82,17 +82,10 @@ button:hover {
 }
 
 .music-wrapper {
-  display: grid;
-  --auto-grid-min-size: 15rem;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-}
-
-.music-wrapper {
   margin: 20px;
-}
-
-.music-wrapper h1 {
-  display: inline;
+  display: grid;
+  --auto-grid-min-size: 5rem;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
 }
 
 .music-wrapper button {
@@ -110,6 +103,7 @@ button:hover {
 
 /* catalogue */
 .list-compositions {
+  z-index: -1;
   /* use flexbox to make all the boxes the same height */
   display: -webkit-box;
   display: -webkit-flex;
