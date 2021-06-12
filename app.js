@@ -23,6 +23,12 @@ function receivedData(data) {
 
             function displayPieces() {
                 
+                var genreDivs = document.querySelectorAll('.button-set');
+
+                for (var i = 0; i < genreDivs.length; i++) {
+                    genreDivs[i].classList.add('hidden');
+                }
+
                 var movements = "<h4>Movements</h4>";
                 var youtubeQuery = createTitleQuery(piece.queryTitle);
 
