@@ -1,25 +1,33 @@
 var genreDivs = document.querySelectorAll('.button-set');
 
-function addHiddenClass() {
+function hideOtherBtnMenus() {
     for (var i = 0; i < genreDivs.length; i++) {
         genreDivs[i].classList.add('hidden');
     }
-    if (this.classList.contains('hidden')) {
+}
+
+var number = 1;
+
+function addHiddenClass() {
+    hideOtherBtnMenus();
+
+    if (number % 2 != 0) {
         this.classList.remove('hidden');
+        number += 1;
     }
 
     else {
         this.classList.add('hidden');
-
+        number += 1;
     }
+
 }
 
 window.addEventListener('load', (event) => {
 
     for (i = 0; i < genreDivs.length; i++) {
         let currentDivParent = genreDivs[i].parentElement;
-        currentDivParent.style.cursor = 'pointer';
-        
-        currentDivParent.onclick = addHiddenClass.bind(genreDivs[i]);
+        console.log(currentDivParent);
+        currentDivParent.addEventListener("click", addHiddenClass.bind(genreDivs[i]));
     }
   });
