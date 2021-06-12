@@ -43,7 +43,6 @@ header {
 button {
   transition: all 0.3s ease;
   background-color: #f0f0f0;
-  margin-left: 20px;
   padding: 5px 10px;
   border: none;
   border-radius: 30px;
@@ -56,14 +55,18 @@ button:hover {
   -moz-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
 }
 
+.music-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 .music-wrapper button {
   margin-bottom: 25px;
 }
 
 .music-wrapper h1 {
   font-size: 20px;
-  display: inline;
-  margin-left: 20px;
+  display: inline-block;
 }
 
 /* catalogue */
