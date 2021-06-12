@@ -45,7 +45,6 @@ button {
   background-color: #f0f0f0;
   padding: 5px 10px;
   border: none;
-  border-radius: 30px;
   cursor: pointer;
 }
 
@@ -55,19 +54,45 @@ button:hover {
   -moz-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
 }
 
+.button-set {
+  height: auto;
+  opacity: 1;
+  transition: height 0ms 0ms, opacity 850ms 0ms;
+}
+
+.hidden {
+  overflow: hidden;
+  /* Hide the element content, while height = 0 */
+  height: 0;
+  opacity: 0;
+  transition: height 0ms 850ms, opacity 850ms 0ms;
+}
+
 .music-wrapper {
   display: grid;
-  --auto-grid-min-size: 18rem;
+  --auto-grid-min-size: 15rem;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
 }
 
+.music-wrapper {
+  margin: 20px;
+}
+
+.music-wrapper h1 {
+  display: inline;
+}
+
 .music-wrapper button {
-  margin-bottom: 25px;
+  margin: 5px;
 }
 
 .music-wrapper h1 {
   font-size: 20px;
   display: inline-block;
+}
+
+#all-music {
+  margin: 20px;
 }
 
 /* catalogue */
@@ -104,7 +129,6 @@ button:hover {
   height: 100%;
   background: #ffffff;
   margin: 10px auto;
-  border-radius: 5px;
   padding: 12px;
 }
 .piece .piece__op {
