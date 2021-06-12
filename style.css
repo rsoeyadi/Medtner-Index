@@ -85,7 +85,6 @@ button:hover {
   display: grid;
   --auto-grid-min-size: 15rem;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
 }
 
 .music-wrapper {
