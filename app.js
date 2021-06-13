@@ -13,7 +13,7 @@ function receivedData(data) {
             buttonID = this.id;
             text = this.textContent; //we bind the button text to this function and need to use 'this'
 
-            currentPiecesInstrumentation = $(this).parent().parent().attr('id').replace(/\-/g, ' ');
+            currentPiecesInstrumentation = $(this).parent().parent().parent().attr('id').replace(/\-/g, ' ');
 
             let pieces = values.map(function(piece) { //go through each object one by one and create the HTML dynamically
             
