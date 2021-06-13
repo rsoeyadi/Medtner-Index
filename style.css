@@ -59,13 +59,14 @@ header {
   -moz-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
 }
 
+/* to prevent menu from pushing down nearby content */
 .button-set {
   position: absolute;
 }
 
 button {
   transition: all 0.3s ease;
-  background-color: #f0f0f0;
+  background-color: #e4e4e4;
   padding: 5px 10px;
   border: none;
   cursor: pointer;
@@ -99,7 +100,7 @@ button:hover {
 }
 
 .music-wrapper button {
-  margin: 5px 5px 5px 0;
+  margin: 5px 5px 0 0;
 }
 
 .music-wrapper h1 {
@@ -113,7 +114,7 @@ button:hover {
 
 /* catalogue */
 .list-compositions {
-  z-index: -1;
+  z-index: 1;
   /* use flexbox to make all the boxes the same height */
   display: -webkit-box;
   display: -webkit-flex;
