@@ -168,8 +168,16 @@ button:hover {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 450px) {
-  /* For mobile phones: */
+@media only screen and (max-width: 300px) {
+  /* For super small phones: */
+  .music-wrapper {
+    margin: 22px;
+    --auto-grid-min-size: 3rem;
+  }
+
+  .music-wrapper h1 {
+    font-size: 13px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
