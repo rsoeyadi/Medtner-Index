@@ -26,6 +26,15 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+header h1 {
+  font-family: "Tangerine", cursive;
+  font-size: 5em;
+  margin: 20px;
+}
+
+nav {
   padding: 30px 10%;
 }
 
