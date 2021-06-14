@@ -167,6 +167,10 @@ button:hover {
 .piece .piece__duration {
   margin-bottom: 10px;
 }
+.piece .piece__movements {
+  margin-top: 2px;
+  margin-bottmo: 2px;
+}
 
 @media only screen and (max-width: 300px) {
   /* For super small phones: */
