@@ -80,6 +80,8 @@ function receivedData(data) {
                         </div>`;       
             }
 
+            var chamberMusic = ["two pianos", "piano quintet"];
+            
             //'all' buttons
             if (buttonID == "allMusic-btn") {
                 for (var i = 0; i < genreDivs.length; i++) {
@@ -88,30 +90,34 @@ function receivedData(data) {
                 return displayPieces(piece);
             }
             
-            if (buttonID == "allPiano-btn" | buttonID == "allViolin-btn" | buttonID == "allVoice-btn") {
+            if (buttonID == "allPiano-btn" | buttonID == "allViolin-btn" | buttonID == "allVoice-btn" | buttonID == "allChamber-btn") {
                 if (buttonID == "allPiano-btn") {
-                    for (var i = 0; i < piece.movements.length; i++) {
                         if (piece.instrumentation === "solo piano") {
                             return displayPieces(piece);
                         }
-                    }
                 } 
 
                 else if (buttonID == "allViolin-btn")  {
-                    for (var i = 0; i < piece.movements.length; i++) {
                         if (piece.instrumentation === "violin and piano") {
                             return displayPieces(piece);
                         }
-                    }
+                    
                 } 
                 
                 else if (buttonID == "allVoice-btn") {
-                    for (var i = 0; i < piece.movements.length; i++) {
+                    
                         if (piece.instrumentation === "voice and piano") {
                             return displayPieces(piece);
                         }
-                     }
                 } 
+
+                else if (buttonID == "allChamber-btn") {
+                    for (var i = 0; i < chamberMusic.length; i++) {
+                        if (piece.instrumentation == chamberMusic[i]) {
+                            return displayPieces(piece);
+                        }
+                    }
+                }
 
             }
             
