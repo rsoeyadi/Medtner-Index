@@ -12,7 +12,7 @@ a, a:visited {
 
 li, a, button {
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -23,19 +23,13 @@ ul {
 }
 
 header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  padding-top: 20px;
+  margin-left: 20px;
 }
 
 header h1 {
   font-family: "Tangerine", cursive;
-  font-size: 5em;
-  margin: 20px;
-}
-
-nav {
-  padding: 30px 10%;
+  font-size: 60px;
 }
 
 .logo {
@@ -115,7 +109,7 @@ button:hover {
 }
 
 .music-wrapper h1 {
-  font-size: 20px;
+  font-size: 17px;
   display: inline-block;
 }
 
@@ -147,6 +141,7 @@ button:hover {
 }
 .piece__container {
   width: 100%;
+  height: 100%;
   margin: 0 20px;
   display: grid;
   --auto-grid-min-size: 24rem;
@@ -171,6 +166,10 @@ button:hover {
 }
 .piece .piece__duration {
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+  /* For mobile phones: */
 }
 
 /*# sourceMappingURL=style.css.map */
