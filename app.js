@@ -36,7 +36,7 @@ function receivedData(data) {
                     }
                 }
 
-                if (piece.op == "" | piece.op == "posthumous" | piece.op == undefined) {
+                if ((piece.op == "" | piece.op == "posthumous" | piece.op == undefined) && parseDates(piece.year, savedDate) == 0){
                     
                     return  `<div class="piece">
                                 <div class="piece__content">
@@ -51,7 +51,7 @@ function receivedData(data) {
                             </div>`;
                 }
                     
-                if (piece.hasOwnProperty('no')){
+                if ((piece.hasOwnProperty('no') && parseDates(piece.year, savedDate) == 0)){
                     
                     return `<div class="piece">
                                 <div class="piece__content">
@@ -67,6 +67,7 @@ function receivedData(data) {
                             </div>`;     
                 }
 
+                if (parseDates(piece.year, savedDate) == 0) {
                 return  `<div class="piece">
                             <div class="piece__content">
                                 <h2 class="piece__op">Op. ${piece.op}</h1>
@@ -80,6 +81,7 @@ function receivedData(data) {
                             </div>
                         </div>`;       
             }
+        }
 
             var chamberMusic = ["two pianos", "piano quintet"];
             
@@ -151,7 +153,7 @@ function receivedData(data) {
     
     /* this is where we actually hook up the buttons to the filter */
 
-    btns = document.getElementsByTagName('button'); //grab the buttons
+    btns = document.getElementsByClassName('button'); //grab the buttons
 
     for (var i = 0; i < btns.length; i++) { //loop through and bind each button and call the closure
         btns[i].addEventListener('click', passBtnText.bind(btns[i]));
@@ -163,3 +165,6 @@ function notReceivedData(error) {
     console.log('Error!');
     console.log(error)
 }
+
+
+    
