@@ -4,7 +4,7 @@ ref.once ('value', receivedData, notReceivedData); //read the data in the db, an
 
 piecesHTML = document.querySelector('.piece__container'); //for where we will put our data later
 
-buttonClicked = btns = document.getElementsByClassName('button')[1];
+buttonClicked = document.getElementsByClassName('button')[0];
 
 function receivedData(data) { 
 
@@ -13,7 +13,7 @@ function receivedData(data) {
         function passBtnText() { //closure for passing in button text
             
             buttonClicked = this;
-            
+
             buttonID = this.id;
             text = this.textContent; //we bind the button text to this function and need to use 'this'
 
