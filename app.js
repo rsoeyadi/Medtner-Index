@@ -2,12 +2,9 @@ var db =  firebase.database(); //create reference to database
 var ref = db.ref('compositions'); //target in the database
 ref.once ('value', receivedData, notReceivedData); //read the data in the db, and callback functions
 
-
 piecesHTML = document.querySelector('.piece__container'); //for where we will put our data later
 
 function receivedData(data) { 
-        
-        dateFilter = date;
 
         var values = data.val(); //the data itself
 
@@ -39,7 +36,7 @@ function receivedData(data) {
                     }
                 }
 
-                if ((piece.op == "" | piece.op == "posthumous" | piece.op == undefined) && piece.year >= dateFilter) {
+                if (piece.op == "" | piece.op == "posthumous" | piece.op == undefined) {
                     
                     return  `<div class="piece">
                                 <div class="piece__content">
@@ -54,7 +51,7 @@ function receivedData(data) {
                             </div>`;
                 }
                     
-                if ((piece.hasOwnProperty('no') && piece.year >= dateFilter)){
+                if (piece.hasOwnProperty('no')){
                     
                     return `<div class="piece">
                                 <div class="piece__content">
@@ -70,7 +67,6 @@ function receivedData(data) {
                             </div>`;     
                 }
 
-                //figure out how to filter according to dates and look at all button
                 return  `<div class="piece">
                             <div class="piece__content">
                                 <h2 class="piece__op">Op. ${piece.op}</h1>
@@ -83,7 +79,6 @@ function receivedData(data) {
                                 ${movements}
                             </div>
                         </div>`;       
-                
             }
 
             var chamberMusic = ["two pianos", "piano quintet"];
