@@ -16,7 +16,14 @@ var filterButton = document.querySelector("#filter-btn")
 
 filterButton.addEventListener("click", function() {
     savedDate = $('#date-slider').slider("option", "value");
+    updateList();
+    
 });
+
+function updateList() {
+    buttonClicked.click();
+    hideOtherBtnMenus();
+}
 
 function parseDates(pieceDates, filterDate) {
     if (pieceDates.length > 4) {

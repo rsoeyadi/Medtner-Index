@@ -4,11 +4,15 @@ ref.once ('value', receivedData, notReceivedData); //read the data in the db, an
 
 piecesHTML = document.querySelector('.piece__container'); //for where we will put our data later
 
+buttonClicked = btns = document.getElementsByClassName('button')[1];
+
 function receivedData(data) { 
 
         var values = data.val(); //the data itself
 
         function passBtnText() { //closure for passing in button text
+            
+            buttonClicked = this;
             
             buttonID = this.id;
             text = this.textContent; //we bind the button text to this function and need to use 'this'
@@ -157,6 +161,8 @@ function receivedData(data) {
 
     for (var i = 0; i < btns.length; i++) { //loop through and bind each button and call the closure
         btns[i].addEventListener('click', passBtnText.bind(btns[i]));
+        
+        
     }
 
 }
