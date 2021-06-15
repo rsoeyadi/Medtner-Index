@@ -23,15 +23,16 @@ function receivedData(data) {
 
             function displayPieces() {
             
-                var movements = "<h4>Movements</h4>";
+                var movements = '<h4 class="piece__movements">Movements</h4>';
                 var youtubeQuery = createTitleQuery(piece.queryTitle);
 
                 for (let i = 0; i < piece.movements.length; i++) {
                     if (piece.movements[i].movementNumber == "") {
+                        movements = '';
                         break;
                     }
                     else {
-                    movements += `<div>${piece.movements[i].movementNumber}. ${piece.movements[i].movement}</div>`;
+                    movements += `<div class="piece__movements">${piece.movements[i].movementNumber}. ${piece.movements[i].movement}</div>`;
                     }
                 }
 
