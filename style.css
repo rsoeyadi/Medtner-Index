@@ -59,6 +59,10 @@ header img {
   max-width: 250px;
 }
 
+#filter-btn {
+  margin-top: 10px;
+}
+
 .logo {
   margin-right: auto;
 }
