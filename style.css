@@ -176,6 +176,12 @@ button:hover {
   color: #2424ee;
   font-size: 1.2em;
 }
+.piece .piece__instrumentation {
+  font-weight: bold;
+}
+.piece .piece__year {
+  font-style: italic;
+}
 .piece .piece__duration {
   margin-bottom: 10px;
 }
