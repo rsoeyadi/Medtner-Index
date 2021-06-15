@@ -27,9 +27,21 @@ header {
   margin-left: 20px;
 }
 
+#medtnerdex {
+  display: inline-block;
+}
+
 header h1 {
+  vertical-align: top;
+  /* so we can move the image down using margin-top without moving the h1 down */
+  display: inline-block;
   font-family: "Tangerine", cursive;
   font-size: 60px;
+}
+
+header img {
+  margin-top: -5px;
+  margin-left: 20px;
 }
 
 .logo {
@@ -169,11 +181,18 @@ button:hover {
 }
 .piece .piece__movements {
   margin-top: 2px;
-  margin-bottmo: 2px;
 }
 
 @media only screen and (max-width: 300px) {
   /* For super small phones: */
+  #medtnerdex h1 {
+    font-size: 3em;
+  }
+
+  #medtnerdex img {
+    width: 20%;
+  }
+
   .music-wrapper {
     margin: 22px;
     --auto-grid-min-size: 3rem;
