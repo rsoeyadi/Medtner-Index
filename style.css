@@ -44,6 +44,12 @@ header img {
   margin-left: 20px;
 }
 
+#slider {
+  margin-left: 20px;
+  width: 100%;
+  max-width: 250px;
+}
+
 .logo {
   margin-right: auto;
 }

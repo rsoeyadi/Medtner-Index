@@ -13,6 +13,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+
+        <!--for the slider-->
+        <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+        <!--for the slider-->
+
     </head>
     <body>
 
@@ -40,8 +46,11 @@
                 </ul>
             </div>
 
-            <input id="date-slider" type="range">
-
+            <!--for the slider-->
+            
+            <div id="slider"></div>
+            <!--for the slider-->
+                 
             <div class="music-wrapper">
                 
 
@@ -136,5 +145,12 @@
 
     <script src="./app.js"></script>
     <script src="displayBtns.js"></script>
+
+    <!--for the slider-->
+    <script>
+        $( "#slider" ).slider();
+    </script>
+    <!--for the slider-->
+
     </body>
 </html>
