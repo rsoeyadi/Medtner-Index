@@ -54,9 +54,12 @@ header img {
 }
 
 #date-slider {
-  margin-left: 230px;
   margin-top: 10px;
   max-width: 250px;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+  margin-left: 0 !important;
 }
 
 #filter-btn {
@@ -74,10 +77,6 @@ header img {
 .nav-links li {
   display: inline-block;
   padding: 0px 20px;
-}
-
-#date-slider {
-  margin-left: 20px;
 }
 
 .nav-links li a {
