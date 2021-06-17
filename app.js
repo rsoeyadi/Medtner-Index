@@ -159,6 +159,7 @@ function receivedData(data) {
             /* after HTML is displayed, add accordion */
 
             $(".accordionGroup").accordion({
+                "active": false,
                 "animate": true,
                 "collapsible": true
             });
