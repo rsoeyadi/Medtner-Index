@@ -27,7 +27,7 @@ function receivedData(data) {
 
             function displayPieces() {
             
-                var movements = '<h4 class="piece__movements">Movements</h4>';
+                var movements = '<div class="accordionGroup"><h4 class="piece__movements">Movements</h4><div class="piece__movements">';
                 var youtubeQuery = createTitleQuery(piece.queryTitle);
 
                 for (let i = 0; i < piece.movements.length; i++) {
@@ -36,11 +36,14 @@ function receivedData(data) {
                         break;
                     }
                     else {
-                    movements += `<div class="piece__movements">${piece.movements[i].movementNumber}. ${piece.movements[i].movement}</div>`;
+                    movements += `<p class="piece__movements">${piece.movements[i].movementNumber}. ${piece.movements[i].movement}</p>`;
                     }
                 }
 
+                movements += "</div></div>"
+
                 if ((piece.op == "" | piece.op == "posthumous" | piece.op == undefined) && parseDates(piece.year, savedDate) == 0){
+                    
                     
                     return  `<div class="piece">
                                 <div class="piece__content">
@@ -153,6 +156,12 @@ function receivedData(data) {
             pieces = pieces.join(""); //put the HTML all together (get rid of the commas separating the HTML)
             piecesHTML.innerHTML = pieces;
 
+            /* after HTML is displayed, add accordion */
+
+            $(".accordionGroup").accordion({
+                "animate": true,
+                "collapsible": true
+            });
         }
     
     /* this is where we actually hook up the buttons to the filter */
