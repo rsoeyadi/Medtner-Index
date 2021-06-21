@@ -236,14 +236,14 @@ button:hover {
 
 @media all and (max-width: 800px) {
   .piece__container {
-    --n:2.5;
+    --n:2.1;
     /*2 visible items */
     --g:5px;
   }
 }
 @media all and (max-width: 400px) {
   .piece__container {
-    --n:1.5;
+    --n:1.2;
     /*1 visible item */
   }
 }
