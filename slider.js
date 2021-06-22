@@ -8,7 +8,7 @@ $( "#date-slider" ).slider({
 });
 
 $('#date-slider').on('slide', function(event, ui) {
-    $("#current-date").text(ui.value);
+    $("#current-date").text("Composed from " + ui.value);
 
 });
 
@@ -37,6 +37,7 @@ function parseDates(pieceDates, filterDate) {
             return 1;
         }
     }
+    
     else if (parseInt(pieceDates.substring(0, 4)) >= filterDate) {
         return 0;
     } 
