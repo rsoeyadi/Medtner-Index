@@ -26,6 +26,20 @@ function displayPieces(piece) {
 
     movements += "</div></div>"
 
+    if (piece.approxDuration == "TBD") {
+        return `<div class="piece">
+                <div class="piece__content accordionGroup">
+                    <h2 class="piece__title">${piece.title}, Op. ${piece.op}</h2>
+                    
+                    <div href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
+                    <p class="piece__instrumentation">${piece.instrumentation}</p>
+                    <p class="piece__year">${piece.year}</p>
+                    ${movements}
+                    </div>
+                </div>
+            </div>`;
+    }
+    
     if ((piece.op == "" | piece.op == "posthumous" | piece.op == undefined) && parseDates(piece.year, savedDate) == 0) {
         return `<div class="piece">
                     <div class="piece__content accordionGroup">
@@ -78,19 +92,7 @@ function displayPieces(piece) {
             </div>`;
     }
 
-    if (piece.approxDuration == "TBD") {
-        return `<div class="piece">
-                <div class="piece__content accordionGroup">
-                    <h2 class="piece__title">${piece.title}, Op. ${piece.op}</h2>
-                    
-                    <div href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
-                    <p class="piece__instrumentation">${piece.instrumentation}</p>
-                    <p class="piece__year">${piece.year}</p>
-                    ${movements}
-                    </div>
-                </div>
-            </div>`;
-    }
+    
 }
 
 function receivedData(data) {
