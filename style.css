@@ -71,7 +71,7 @@ header img {
 }
 
 .ui-accordion .ui-accordion-header {
-  font-size: 0.7em !important;
+  font-size: 1em !important;
 }
 
 .ui-accordion .ui-accordion-content {
@@ -204,14 +204,10 @@ button:hover {
   /*4 visible items */
   --g:10px;
   display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: calc((100% - (var(--n) - 1)*var(--g))/var(--n));
-  grid-gap: var(--g);
-  margin: 10px;
-  max-width: 1150px;
-  min-height: 900px;
-  overflow: auto;
-  justify-items: center;
+  --auto-grid-min-size: 24rem;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 100px;
 }
 .piece__content {
   height: 250px;
