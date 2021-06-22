@@ -46,7 +46,7 @@ function displayPieces(piece) {
 
         return `<div class="piece">
                     <div class="piece__content accordionGroup">
-                        <p class="piece__title">${piece.title}, ${piece.op}, ${piece.no}</p>
+                        <p class="piece__title">${piece.title}, Op. ${piece.op}, No. ${piece.no}</p>
 
                         
                             
