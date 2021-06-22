@@ -29,9 +29,10 @@ function displayPieces(piece) {
     if (piece.approxDuration == "TBD") {
         return `<div class="piece">
                 <div class="piece__content accordionGroup">
-                    <h2 class="piece__title">${piece.title}, Op. ${piece.op}</h2>
+                    <h2 class="piece__op">Op. ${piece.op}</h2>
                     
                     <div href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
+                    <p class="piece__title">${piece.title}</p>
                     <p class="piece__instrumentation">${piece.instrumentation}</p>
                     <p class="piece__year">${piece.year}</p>
                     ${movements}
@@ -39,14 +40,15 @@ function displayPieces(piece) {
                 </div>
             </div>`;
     }
-    
+
     if ((piece.op == "" | piece.op == "posthumous" | piece.op == undefined) && parseDates(piece.year, savedDate) == 0) {
         return `<div class="piece">
                     <div class="piece__content accordionGroup">
-                        <h1 class="piece__title">${piece.title}, Op. ${piece.op}
+                        <h2 class="piece__title">${piece.title}</p>
                             
-                        </h1>
+                        </h2>
                         <div>
+                        <p>No Opus Number</p>
                         <p class="piece__instrumentation">${piece.instrumentation}</p>
                         <p class="piece__year">${piece.year}</p>
                         <p class="piece__duration">About ${piece.approxDuration} min</p>   
@@ -60,14 +62,10 @@ function displayPieces(piece) {
 
         return `<div class="piece">
                     <div class="piece__content accordionGroup">
-                        <p class="piece__title">${piece.title}, Op. ${piece.op}, No. ${piece.no}</p>
-
+                        <h2 class="piece__op">Op. ${piece.op}, No. ${piece.no}</h2>
                         
-                            
-                        
-                        
-                    <div>
-                            
+                        <div>
+                            <p class="piece__title">${piece.title}</p>
                             <p class="piece__instrumentation">${piece.instrumentation}</p>
                             <p class="piece__year">${piece.year}</p>
                             <p class="piece__duration">About ${piece.approxDuration} min</p>   
@@ -80,9 +78,10 @@ function displayPieces(piece) {
     if (parseDates(piece.year, savedDate) == 0) {
         return `<div class="piece">
                 <div class="piece__content accordionGroup">
-                    <h2 class="piece__title">${piece.title}, Op. ${piece.op}</h2>
+                    <h2 class="piece__op">Op. ${piece.op}</h2>
                     
                     <div href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
+                    <p class="piece__title">${piece.title}</p>
                     <p class="piece__instrumentation">${piece.instrumentation}</p>
                     <p class="piece__year">${piece.year}</p>
                     <p class="piece__duration">About ${piece.approxDuration} min</p>   
