@@ -1,17 +1,23 @@
 var db = firebase.database(); //create reference to database
 var ref = db.ref('compositions'); //target in the database
-
+pieceQueryHTML = document.querySelector('.pieceQueryNumber'); //for where we will put our data later
 piecesHTML = document.querySelector('.piece__container'); //for where we will put our data later
 buttonClicked = document.getElementsByClassName('button')[0];
 
 ref.once('value', receivedData, notReceivedData); //read the data in the db, and callback functions
+
+function createPieceQueryNumber(number) {
+    if (number == 1) {
+        return `<div id="total-found">${number} work found </div>`
+    }
+    return `<div id="total-found">${number} works found </div>`
+}
 
 function createTitleQuery(title) {
     return "Medtner " + title.replace(/\s/g, '+').toLowerCase();
 }
 
 function displayPieces(piece) {
-
     var movements = '<div class=""><h4 class="piece__movements">Movements</h4><div class="piece__movements">';
     var youtubeQuery = createTitleQuery(piece.queryTitle);
 
@@ -98,6 +104,8 @@ function receivedData(data) {
 
     var values = data.val(); //the data itself
 
+    var totalFound = document.getElementById('#total-found');
+
     function passBtnText() { //closure for passing in button text
         buttonClicked = this;
         buttonID = this.id;
@@ -158,15 +166,21 @@ function receivedData(data) {
             }
         })
 
+        
         pieces = pieces.join(""); //put the HTML all together (get rid of the commas separating the HTML)
         piecesHTML.innerHTML = pieces;
 
+        var pieceCounter = $(".piece__container").find(".piece").length ;
+        pieceQueryHTML.innerHTML = createPieceQueryNumber(pieceCounter);
         /* after HTML is displayed, add accordion */
         $(".accordionGroup").accordion({
             "active": false,
             "animate": true,
             "collapsible": true
         });
+
+        
+        
     }
 
     /* this is where we actually hook up the buttons to the filter */
@@ -178,7 +192,10 @@ function receivedData(data) {
 
     }
 
+    
+
 }
+
 
 function notReceivedData(error) {
     console.log('Error!');

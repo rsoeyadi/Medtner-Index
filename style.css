@@ -176,6 +176,11 @@ button:hover {
 }
 
 /* catalogue */
+#total-found {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
 .list-compositions {
   margin-bottom: 50px;
   /* use flexbox to make all the boxes the same height */
