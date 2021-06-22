@@ -71,6 +71,7 @@ header img {
 }
 
 .ui-accordion .ui-accordion-header {
+  font-size: 0.7em !important;
   padding: 0 !important;
 }
 
@@ -194,7 +195,7 @@ button:hover {
   width: 100%;
   height: 100%;
   margin: 0 20px;
-  --n:4.5;
+  --n:5.5;
   /*4 visible items */
   --g:10px;
   display: grid;
@@ -216,26 +217,28 @@ button:hover {
   padding: 12px;
 }
 .piece .piece__op {
-  font-size: 2em;
+  font-size: 0.7em;
   font-weight: bold;
 }
 .piece .piece__title {
   text-decoration: underline;
-  color: #2424ee;
-  font-size: 1.2em;
+  font-size: 0.7em;
 }
 .piece .piece__instrumentation {
+  font-size: 0.7em;
   font-weight: bold;
 }
 .piece .piece__year {
+  font-size: 0.7em;
   font-style: italic;
 }
 .piece .piece__duration {
+  font-size: 0.7em;
   margin-bottom: 10px;
 }
 .piece .piece__movements {
   margin-top: 2px;
-  font-size: 12px;
+  font-size: 0.6em;
 }
 
 @media all and (max-width: 800px) {
