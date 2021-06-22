@@ -1,10 +1,10 @@
 var db = firebase.database(); //create reference to database
 var ref = db.ref('compositions'); //target in the database
-ref.once('value', receivedData, notReceivedData); //read the data in the db, and callback functions
 
 piecesHTML = document.querySelector('.piece__container'); //for where we will put our data later
-
 buttonClicked = document.getElementsByClassName('button')[0];
+
+ref.once('value', receivedData, notReceivedData); //read the data in the db, and callback functions
 
 function createTitleQuery(title) {
     return "Medtner " + title.replace(/\s/g, '+').toLowerCase();
@@ -12,7 +12,7 @@ function createTitleQuery(title) {
 
 function displayPieces(piece) {
 
-    var movements = '<div class="accordionGroup"><h4 class="piece__movements">Movements</h4><div class="piece__movements">';
+    var movements = '<div class=""><h4 class="piece__movements">Movements</h4><div class="piece__movements">';
     var youtubeQuery = createTitleQuery(piece.queryTitle);
 
     for (let i = 0; i < piece.movements.length; i++) {
@@ -28,14 +28,16 @@ function displayPieces(piece) {
 
     if ((piece.op == "" | piece.op == "posthumous" | piece.op == undefined) && parseDates(piece.year, savedDate) == 0) {
         return `<div class="piece">
-                    <div class="piece__content">
-                        <a href="https://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
-                            <h1 class="piece__title">${piece.title}</h1>
-                        </a>
+                    <div class="piece__content accordionGroup">
+                        <h1 class="piece__title">${piece.title}, Op. ${piece.op}
+                            
+                        </h1>
+                        <div>
                         <p class="piece__instrumentation">${piece.instrumentation}</p>
                         <p class="piece__year">${piece.year}</p>
                         <p class="piece__duration">About ${piece.approxDuration} min</p>   
                         ${movements}
+                        </div>
                      </div>
                 </div>`;
     }
@@ -43,30 +45,35 @@ function displayPieces(piece) {
     if ((piece.hasOwnProperty('no') && parseDates(piece.year, savedDate) == 0)) {
 
         return `<div class="piece">
-                    <div class="piece__content">
-                        <h2 class="piece__op">Op. ${piece.op}, No. ${piece.no}</h1>
-                            <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
-                                <h1 class="piece__title">${piece.title}</h1>
-                            </a>
-                        <p class="piece__instrumentation">${piece.instrumentation}</p>
-                        <p class="piece__year">${piece.year}</p>
-                        <p class="piece__duration">About ${piece.approxDuration} min</p>   
-                        ${movements}
+                    <div class="piece__content accordionGroup">
+                        <p class="piece__title">${piece.title}, ${piece.op}, ${piece.no}</p>
+
+                        
+                            
+                        
+                        
+                    <div>
+                            
+                            <p class="piece__instrumentation">${piece.instrumentation}</p>
+                            <p class="piece__year">${piece.year}</p>
+                            <p class="piece__duration">About ${piece.approxDuration} min</p>   
+                            ${movements}
+                        </div>
                     </div>  
                 </div>`;
     }
 
     if (parseDates(piece.year, savedDate) == 0) {
         return `<div class="piece">
-                <div class="piece__content">
-                    <h2 class="piece__op">Op. ${piece.op}</h1>
-                    <a href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
-                        <h1 class="piece__title">${piece.title}</h1>
-                    </a>
+                <div class="piece__content accordionGroup">
+                    <h2 class="piece__title">${piece.title}, Op. ${piece.op}</h2>
+                    
+                    <div href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
                     <p class="piece__instrumentation">${piece.instrumentation}</p>
                     <p class="piece__year">${piece.year}</p>
                     <p class="piece__duration">About ${piece.approxDuration} min</p>   
                     ${movements}
+                    </div>
                 </div>
             </div>`;
     }
@@ -152,7 +159,6 @@ function receivedData(data) {
 
     for (var i = 0; i < btns.length; i++) { //loop through and bind each button and call the closure
         btns[i].addEventListener('click', passBtnText.bind(btns[i]));
-
 
     }
 
