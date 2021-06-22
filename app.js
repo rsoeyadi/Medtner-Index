@@ -84,6 +84,7 @@ function receivedData(data) {
     var values = data.val(); //the data itself
 
     function passBtnText() { //closure for passing in button text
+        buttonClicked = this;
         buttonID = this.id;
         text = this.textContent; //we bind the button text to this function and need to use 'this'
 
