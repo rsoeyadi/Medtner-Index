@@ -72,12 +72,17 @@ header img {
 
 .ui-accordion .ui-accordion-header {
   font-size: 0.7em !important;
-  padding: 0 !important;
 }
 
 .ui-accordion .ui-accordion-content {
-  padding: 0 !important;
   padding-left: 10px !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+  font-weight: bold !important;
+  width: 100%;
+  height: 75px;
+  justify-content: center;
 }
 
 h4 {
@@ -238,7 +243,7 @@ button:hover {
 }
 .piece .piece__movements {
   margin-top: 2px;
-  font-size: 0.6em;
+  font-size: 0.75em;
 }
 
 @media all and (max-width: 800px) {
