@@ -48,7 +48,7 @@ function createPieceQueryNumber(number) {
                 return `<div id="total-found">${number} solo piano sonata found since ${savedDate}</div>`
                 break;
             }
-            return `<div id="total-found">${number} solo piano sonatas found since ${savedDate}</div>`
+            return `<div id="total-found">${number} solo piano sonatas (or ${number + 2} total because of Op. 11, Sonaten-Triade) found since ${savedDate}</div>`
             break;
         case 'miscPiano-btn':
             if (number == 1) {
