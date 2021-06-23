@@ -421,7 +421,7 @@
         "op": 17,
         "year": "1908",
         "instrumentation": "solo piano",
-        "approxDuration": "14:30",
+        "approxDuration": "15:09 minutes (Milne)",
         "misc": true,
         "movements": [ {
             "movementNumber": 1,
@@ -522,7 +522,7 @@
         "op": 21,
         "year": "1909",
         "instrumentation": "violin and piano",
-        "approxDuration": "21:00",
+        "approxDuration": "18:25 minutes (Kagan)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Canzona"
@@ -543,7 +543,7 @@
         "op": 22,
         "year": "1901 - 1910",
         "instrumentation": "solo piano",
-        "approxDuration": "18:00",
+        "approxDuration": "17:52 minutes (Debargue)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Tenebroso, sempre affrettando"
@@ -556,7 +556,7 @@
         "op": 23,
         "year": "1911 - 1913",
         "instrumentation": "solo piano",
-        "approxDuration": "12:00",
+        "approxDuration": "11:53 minutes (Tzovanakis)",
         "misc": true,
         "movements": [ {
             "movementNumber": 1,
@@ -582,7 +582,7 @@
         "op": 24,
         "year": "1911",
         "instrumentation": "voice and piano",
-        "approxDuration": "17:00",
+        "approxDuration": "16:51 minutes (Andrew)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Tag und Nacht"
@@ -624,7 +624,7 @@
         "no": 1,
         "year": "1910 - 1911",
         "instrumentation": "solo piano",
-        "approxDuration": "15:00",
+        "approxDuration": "12:22 minutes (Tozer)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Allegro abbandonamente"
@@ -646,7 +646,7 @@
         "no": 2,
         "year": "1910 - 1911",
         "instrumentation": "solo piano",
-        "approxDuration": "35:00",
+        "approxDuration": "32:09 minutes (Ponochevny)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Introduzione: Andante - Allegro"
@@ -683,7 +683,7 @@
         "queryTitle": "Etude in C minor",
         "year": "1912",
         "instrumentation": "solo piano",
-        "approxDuration": "2:40",
+        "approxDuration": "2:22 minutes (Tozer)",
         "misc": true,
         "movements": [ {
             "movementNumber": "",
@@ -697,7 +697,7 @@
         "op": 27,
         "year": "1913 - 1914",
         "instrumentation": "solo piano",
-        "approxDuration": "21:00",
+        "approxDuration": "23:16 minutes (Medtner)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Allegretto"
@@ -714,7 +714,7 @@
         "op": 28,
         "year": "1913",
         "instrumentation": "voice and piano",
-        "approxDuration": "22:00",
+        "approxDuration": "TBD",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Der ungeahnte Regen"
@@ -751,7 +751,7 @@
         "op": 29,
         "year": "1913",
         "instrumentation": "voice and piano",
-        "approxDuration": "16:00",
+        "approxDuration": "TBD",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Die Muse"
@@ -788,7 +788,7 @@
         "op": 30,
         "year": "1914",
         "instrumentation": "solo piano",
-        "approxDuration": "15:00",
+        "approxDuration": "14:39 minutes (Milne)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Allegro risoluto"
@@ -823,7 +823,7 @@
         "op": 32,
         "year": "1915",
         "instrumentation": "voice and piano",
-        "approxDuration": "20:00",
+        "approxDuration": "21:43 minutes (Levental)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Das Echo"
@@ -856,7 +856,7 @@
         "op": 33,
         "year": "1914 - 1918",
         "instrumentation": "piano concerto",
-        "approxDuration": "34:00",
+        "approxDuration": "31:53 minutes (Gillham)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Allegro"
@@ -902,7 +902,7 @@
         "op": 35,
         "year": "1916",
         "instrumentation": "solo piano",
-        "approxDuration": "18:00",
+        "approxDuration": "16:47 minutes (Milne)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Tale in C Major"
@@ -927,7 +927,7 @@
         "op": 36,
         "year": "1915",
         "instrumentation": "voice and piano",
-        "approxDuration": "15:00",
+        "approxDuration": "14:44 minutes (Wreggelsworth)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Der Engel"
@@ -960,7 +960,7 @@
         "op": 37,
         "year": "1918 - 1920",
         "instrumentation": "voice and piano",
-        "approxDuration": "15:00",
+        "approxDuration": "15:55 minutes (Chernykh)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Schlaflosigkeit"
@@ -989,7 +989,7 @@
         "op": 38,
         "year": "1919 - 1922",
         "instrumentation": "solo piano",
-        "approxDuration": "36:00",
+        "approxDuration": "26:14 minutes (Lugansky)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Piano Sonata No. 10 in A minor, \"Sonata Reminiscenza\""
@@ -1030,7 +1030,7 @@
         "op": 39,
         "year": "1919 - 1920",
         "instrumentation": "solo piano",
-        "approxDuration": "30:00",
+        "approxDuration": "30:33 minutes (Mejoueva)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Meditazione"
@@ -1059,7 +1059,7 @@
         "op": 40,
         "year": "1919 - 1920",
         "instrumentation": "solo piano",
-        "approxDuration": "30:00",
+        "approxDuration": "28:32 minutes (Arimori)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Danza col canto"
@@ -1093,7 +1093,7 @@
         "no": 1,
         "year": "1922",
         "instrumentation": "voice and piano",
-        "approxDuration": "14:00",
+        "approxDuration": "14:12 minutes (Gritton)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Geweihter Platz"
@@ -1111,7 +1111,7 @@
         "no": 2,
         "year": "1927",
         "instrumentation": "voice and piano",
-        "approxDuration": "14:00",
+        "approxDuration": "18:52 minutes (Gritton)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Introduzione"
@@ -1161,7 +1161,7 @@
         "op": 43,
         "year": "1921 - 1924",
         "instrumentation": "violin and piano",
-        "approxDuration": "18:00",
+        "approxDuration": "17:37 minutes (Labko)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Canzona. Andantino con moto"
@@ -1186,7 +1186,7 @@
         "op": 44,
         "year": "1922 - 1925",
         "instrumentation": "violin and piano",
-        "approxDuration": "41:00",
+        "approxDuration": "41:19 minutes (Kayaleh)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Introduzione. Maestoso (poco quasi cadenza.) - Allegro non troppo ma appassionato"
@@ -1215,7 +1215,7 @@
         "op": 45,
         "year": "1924",
         "instrumentation": "voice and piano",
-        "approxDuration": "15:00",
+        "approxDuration": "15:07 minutes (Chernykh)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Elegie"
@@ -1240,7 +1240,7 @@
         "op": 46,
         "year": "1922 - 1924",
         "instrumentation": "voice and piano",
-        "approxDuration": "18:00",
+        "approxDuration": "TBD",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Praeludium"
@@ -1278,11 +1278,84 @@
         "op": 47,
         "year": "1925",
         "instrumentation": "solo piano",
-        "approxDuration": "29:00",
+        "approxDuration": "TBD",
         "misc": true, 
         "movements": [ {
             "movementNumber": 1,
-            "movement": "Theme and 16 variations"
+            "movement": "Theme: Song of the Water Nymph (Andante)"
+        },
+        {
+            "movementNumber": 2, 
+            "movement": "Variation 1: Meditation – (Poco con moto e al rigore di tempo)"
+        },
+        {
+            "movementNumber": 3, 
+            "movement": "Variation 2: Caprice (Capriccioso) "
+        },
+        {
+            "movementNumber": 4, 
+            "movement": "Variation 3: Feathered Ones – (Allegro capriccioso – Allegro vivo e risoluto)"
+        },
+        {
+            "movementNumber": 5, 
+            "movement": "Variation 4: Charms – (Allegretto con moto)"
+        },
+        {
+            "movementNumber": 6, 
+            "movement": "Variation: La Cadenza (Largamente) (Poco quasi una cadenza)"
+        },
+        {
+            "movementNumber": 7, 
+            "movement": "Variation 5: Humoresque (Allegretto ritmico)"
+        },
+        {
+            "movementNumber": 8, 
+            "movement": "Variation 6: In the Stream (Lesto) –"
+        },
+        {
+            "movementNumber": 9, 
+            "movement": "Variation 7: The Tumult of the Crowd – (Poco a poco vivace – Vivace, risoluto – Vivo)"
+        },
+        {
+            "movementNumber": 10, 
+            "movement": "Variation 8: In the Forest – (Andante sognando – Andante)"
+        },
+        {
+            "movementNumber": 11, 
+            "movement": "Variation 9: The Wood-Goblin – (Allegro ritmico)"
+        },
+        {
+            "movementNumber": 12, 
+            "movement": "Variation 10: Elves – (Prestissimo)"
+        },
+        {
+            "movementNumber": 13, 
+            "movement": "Variation 11: Gnomes – (Allegro risoluto)"
+        },
+        {
+            "movementNumber": 14, 
+            "movement": "Variation: Pesante"
+        },
+        {
+            "movementNumber": 15, 
+            "movement": "Variation 12: Incantation – (Andante maestoso)"
+        },
+        {
+            "movementNumber": 16, 
+            "movement": "Variation 13: The Threat – (Allegro tenebroso – Con moto instantamente – Tempo I)"
+        },
+        {
+            "movementNumber": 17, 
+            "movement": "Variation 14: Song of the Water Nymph – (Poco con moto e al rigore di tempo)"
+        },
+        {
+            "movementNumber": 18, 
+            "movement": "Variation 15: Bad Weather – (Tranquillo, ma poco a poco più mosso e crescendo – Sempre allegro agitato)"
+        },
+        {
+            "movementNumber": 19, 
+            "movement": "Conclusion (Andante – Maestoso) (Poco con moto e al rigore di tempo)"
+        },
         }
     ]
     },
@@ -1309,7 +1382,7 @@
         "op": 49,
         "year": "1926",
         "instrumentation": "solo piano",
-        "approxDuration": "11:00",
+        "approxDuration": "10:36 minutes (Milne)",
         "misc": true, 
         "movements": [ {
             "movementNumber": 1,
@@ -1331,7 +1404,7 @@
         "op": 50,
         "year": "1921 - 1926",
         "instrumentation": "piano concerto",
-        "approxDuration": "36:00",
+        "approxDuration": "36:14 minutes (Tozer)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Toccata (Allegro risoluto)"
@@ -1385,7 +1458,7 @@
         "op": 52,
         "year": "1929",
         "instrumentation": "voice and piano",
-        "approxDuration": "23:00",
+        "approxDuration": "22:53 minutes (Chernykh)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Das Fenster"
@@ -1423,7 +1496,7 @@
         "no": 1,
         "year": "1929 - 1930",
         "instrumentation": "solo piano",
-        "approxDuration": "23:00",
+        "approxDuration": "24:23 minutes (Tozer)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Romanza. Andantino con moto, ma sempre espressivo"
@@ -1449,7 +1522,7 @@
         "no": 2,
         "year": "1929 - 1931",
         "instrumentation": "solo piano",
-        "approxDuration": "16:00",
+        "approxDuration": "17:36 minutes (Tozer)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Allegro sostenuto"
@@ -1496,12 +1569,37 @@
         "op": 55,
         "year": "1933",
         "instrumentation": "solo piano",
-        "approxDuration": "10:00",
+        "approxDuration": "10:13 minutes (Milne)",
         "misc": true,
-        "movements": [ {
-            "movementNumber": 1,
-            "movement": "Theme and six variations"
-        }
+        "movements": [ 
+            {
+                "movementNumber": 1,
+                "movement": "Theme: Allegretto grazioso (tempo di Minuetto)"
+            },
+            {
+                "movementNumber": 2, 
+                "movement": "Variation 1"
+            },
+            {
+                "movementNumber": 3, 
+                "movement": "Variation 2: Allegro "
+            },
+            {
+                "movementNumber": 4, 
+                "movement": "Variation 3: Allegro (al rigore di tempo)"
+            },
+            {
+                "movementNumber": 5, 
+                "movement": "Variation 4: Intermezzo - Allegro leggierissimo e giocoso"
+            },
+            {
+                "movementNumber": 6, 
+                "movement": "Variation 5: Largamento, lugubre, ma non ritardare (sempre marcato il basso ostinato)"
+            },
+            {
+                "movementNumber": 7, 
+                "movement": "Variation 6: Allegro molto"
+            }
     ]
     },
     {
@@ -1510,7 +1608,7 @@
         "op": 56,
         "year": "1935 - 1937",
         "instrumentation": "solo piano",
-        "approxDuration": "12:00",
+        "approxDuration": "12:17 minutes (Tozer)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Pastorale. Allegretto cantabile"
@@ -1527,7 +1625,7 @@
         "op": 57,
         "year": "1938",
         "instrumentation": "violin and piano",
-        "approxDuration": "47:00",
+        "approxDuration": "46:37 minutes (Labko)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Introduzione: Andante meditamente - Allegro"
@@ -1552,7 +1650,7 @@
         "op": 58,
         "year": "1940 - 1946",
         "instrumentation": "two pianos",
-        "approxDuration": "13:00",
+        "approxDuration": "19:42 (Bakhchiev and Sorokina)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Russian Round Dance"
@@ -1569,7 +1667,7 @@
         "op": 59,
         "year": "1940",
         "instrumentation": "solo piano",
-        "approxDuration": "13:00",
+        "approxDuration": "14:58 minutes (Milne)",
         "misc": true,
         "movements": [ {
             "movementNumber": 1,
@@ -1587,7 +1685,7 @@
         "op": 60,
         "year": "1941 - 1943",
         "instrumentation": "piano concerto",
-        "approxDuration": "36:00",
+        "approxDuration": "34:51 minutes (Medtner)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Con moto largamento – Allegretto con moto"
@@ -1608,7 +1706,7 @@
         "op": "61",
         "year": "1927 - 1951",
         "instrumentation": "voice and piano",
-        "approxDuration": "2:00",
+        "approxDuration": "TBD",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Reiselied [Pesn' strannika] (Traveling Song)"
@@ -1649,7 +1747,7 @@
         "op": "posthumous",
         "year": "1904 - 1948",
         "instrumentation": "piano quintet",
-        "approxDuration": "26:00",
+        "approxDuration": "25:13 minutes (Scherbakov)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Molto placido"
@@ -1671,7 +1769,7 @@
         "op": "",
         "year": "1910",
         "instrumentation": "solo piano",
-        "approxDuration": "9:20",
+        "approxDuration": "9:20 (Lowenthal)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "1st movement cadenza"
