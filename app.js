@@ -143,6 +143,9 @@ function createPieceQueryNumber(number) {
             return `<div id="total-found">${number} piano quintet found since ${savedDate}</div>`
             break;
         case 'twoPiano-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} two piano works found since ${savedDate}</div>`
+            }
             return `<div id="total-found">${number} two piano work found since ${savedDate}</div>`
             break;
         default:
