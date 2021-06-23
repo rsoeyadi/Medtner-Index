@@ -505,7 +505,7 @@
         "op": 20,
         "year": "1909",
         "instrumentation": "solo piano",
-        "approxDuration": "7:00",
+        "approxDuration": "6:39 minutes (Milne)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Tale in B-flat minor"
@@ -659,7 +659,7 @@
         "op": 26,
         "year": "1910 - 1912",
         "instrumentation": "solo piano",
-        "approxDuration": "11:00",
+        "approxDuration": "10:28 minutes (Milne)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Tale in E-flat Major"
@@ -877,7 +877,7 @@
         "op": 34,
         "year": "1916",
         "instrumentation": "solo piano",
-        "approxDuration": "18:00",
+        "approxDuration": "17:05 minutes (Milne)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Tale in B minor, \"The Magic Fiddle\""
@@ -1140,7 +1140,7 @@
         "op": 42,
         "year": "1921 - 1924",
         "instrumentation": "solo piano",
-        "approxDuration": "14:00",
+        "approxDuration": "14:13 minutes (Milne)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Tale in F minor, \"Russian Tale\""
@@ -1292,7 +1292,7 @@
         "op": 48,
         "year": "1925",
         "instrumentation": "solo piano",
-        "approxDuration": "13:00",
+        "approxDuration": "12:52 minutes (Milne)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Tale in C Major, \"Dance-Tale\""
@@ -1352,7 +1352,7 @@
         "op": 51,
         "year": "1928",
         "instrumentation": "solo piano",
-        "approxDuration": "25:00",
+        "approxDuration": "22:24 minutes (Milne)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Tale in D minor"
@@ -1462,7 +1462,7 @@
         "op": 54,
         "year": "1931 - 1932",
         "instrumentation": "solo piano",
-        "approxDuration": "23:00",
+        "approxDuration": "25:34 minutes (Milne)",
         "misc": true,
         "movements": [ {
             "movementNumber": 1,
@@ -1474,7 +1474,7 @@
         },
         {
             "movementNumber": 3,
-            "movement": "Skazki (Scherzo)"
+            "movement": "Tale (Scherzo)"
         },
         {
             "movementNumber": 4,
@@ -1689,7 +1689,7 @@
         "op": "",
         "year": "1915",
         "instrumentation": "solo piano",
-        "approxDuration": "2:00",
+        "approxDuration": "2:12 minutes (Milne)",
         "movements": [ {
             "movementNumber": "",
             "movement": ""
