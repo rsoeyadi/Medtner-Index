@@ -57,7 +57,7 @@ function displayPieces(piece) {
                         <p>No Opus Number</p>
                         <p class="piece__instrumentation">${piece.instrumentation}</p>
                         <p class="piece__year">${piece.year}</p>
-                        <p class="piece__duration">About ${piece.approxDuration} min</p>   
+                        <p class="piece__duration">About ${piece.approxDuration}</p>   
                         ${movements}
                         </div>
                      </div>
@@ -74,7 +74,7 @@ function displayPieces(piece) {
                             <p class="piece__title">${piece.title}</p>
                             <p class="piece__instrumentation">${piece.instrumentation}</p>
                             <p class="piece__year">${piece.year}</p>
-                            <p class="piece__duration">About ${piece.approxDuration} min</p>   
+                            <p class="piece__duration">About ${piece.approxDuration}</p>   
                             ${movements}
                         </div>
                     </div>  
@@ -90,7 +90,7 @@ function displayPieces(piece) {
                     <p class="piece__title">${piece.title}</p>
                     <p class="piece__instrumentation">${piece.instrumentation}</p>
                     <p class="piece__year">${piece.year}</p>
-                    <p class="piece__duration">About ${piece.approxDuration} min</p>   
+                    <p class="piece__duration">About ${piece.approxDuration}</p>   
                     ${movements}
                     </div>
                 </div>
