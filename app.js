@@ -7,10 +7,142 @@ buttonClicked = document.getElementsByClassName('button')[0];
 ref.once('value', receivedData, notReceivedData); //read the data in the db, and callback functions
 
 function createPieceQueryNumber(number) {
-    if (number == 1) {
-        return `<div id="total-found">${number} work found </div>`
-    }
-    return `<div id="total-found">${number} works found </div>`
+    switch(buttonClicked.id) {
+        case 'allMusic-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} work by Medtner found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} total works by Medtner found from ${savedDate}</div>`
+            break;
+        case 'allPiano-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} solo piano work found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} total solo piano works found from ${savedDate}</div>`
+            break;
+        case 'fairy-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} Fairy Tale found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} Fairy Tales found from ${savedDate}</div>`
+            break;
+        case 'forg-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} set of Forgotten Melodies found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} Forgotten Melodies found from ${savedDate}</div>`
+            break;
+        case 'pianoConc-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} piano concerto found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} piano concerto works found from ${savedDate}</div>`
+            break;
+        case 'pianoSon-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} solo piano sonata found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} solo piano sonatas found from ${savedDate}</div>`
+            break;
+        case 'miscPiano-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} miscellaneous solo piano work found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} miscellaneous solo piano works found from ${savedDate}</div>`
+            break;
+        case 'allViolin-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} violin work found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} total violin works found from ${savedDate}</div>`
+            break;
+        case 'canzonas-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} violin canzona found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} violin canzonas found from ${savedDate}</div>`
+            break;
+        case 'nocturnes-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} violin nocturne found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} violin nocturnes found from ${savedDate}</div>`
+            break;
+        case 'violinSon-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} violin sonata found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} violin sonatas found from ${savedDate}</div>`
+            break;
+        case 'allVoice-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} vocal work found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} total vocal works found from ${savedDate}</div>`
+            break;
+        case 'fet-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} vocal work with text by Fet found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} vocal works with text by Fet found from ${savedDate}</div>`
+            break;
+        case 'goethe-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} vocal work with text by Goethe found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} vocal works with text by Goethe found from ${savedDate}</div>`
+            break;
+        case 'pushkin-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} vocal work with text by Pushkin found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} vocal works with text by Pushkin found from ${savedDate}</div>`
+            break;
+        case 'vocalSon-btn':
+            return `<div id="total-found">${number} vocal sonata found from ${savedDate}</div>`
+            break;
+        case 'vocalSuite-btn':
+            return `<div id="total-found">${number} vocal suite found from ${savedDate}</div>`
+            break;
+        case 'tyutchev-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} vocal work with text by Tyutchev found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} vocal works with text by Tyutchev found from ${savedDate}</div>`
+            break;
+        case 'allChamber-btn':
+            if (number == 1) {
+                return `<div id="total-found">${number} chamber work found from ${savedDate}</div>`
+                break;
+            }
+            return `<div id="total-found">${number} chamber works found from ${savedDate}</div>`
+            break;
+        case 'quintet-btn':
+            return `<div id="total-found">${number} piano quintet found from ${savedDate}</div>`
+            break;
+        case 'twoPiano-btn':
+            return `<div id="total-found">${number} two piano work found from ${savedDate}</div>`
+            break;
+        default:
+          // code block
+      }
+    
 }
 
 function createTitleQuery(title) {
@@ -32,7 +164,8 @@ function displayPieces(piece) {
 
     movements += "</div></div>"
 
-    if (piece.approxDuration == "TBD") {
+    if (piece.approxDuration == "TBD" && (parseDates(piece.year, savedDate) == 0)) {
+        
         return `<div class="piece">
                 <div class="piece__content accordionGroup">
                     <h2 class="piece__op">Op. ${piece.op}</h2>
