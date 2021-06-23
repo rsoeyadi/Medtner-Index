@@ -79,10 +79,10 @@ function createPieceQueryNumber(number) {
             break;
         case 'nocturnes-btn':
             if (number == 1) {
-                return `<div id="total-found">${number} violin nocturne found since ${savedDate}</div>`
+                return `<div id="total-found">${number} set of violin nocturnes found since ${savedDate}</div>`
                 break;
             }
-            return `<div id="total-found">${number} set of violin nocturnes found since ${savedDate}</div>`
+            return `<div id="total-found">${number} sets of violin nocturnes found since ${savedDate}</div>`
             break;
         case 'violinSon-btn':
             if (number == 1) {
