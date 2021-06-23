@@ -7,7 +7,7 @@ buttonClicked = document.getElementsByClassName('button')[0];
 ref.once('value', receivedData, notReceivedData); //read the data in the db, and callback functions
 
 function createPieceQueryNumber(number) {
-    switch(buttonClicked.id) {
+    switch (buttonClicked.id) {
         case 'allMusic-btn':
             if (number == 1) {
                 return `<div id="total-found">${number} work by Medtner found since ${savedDate}</div>`
@@ -47,12 +47,10 @@ function createPieceQueryNumber(number) {
             if (number == 1) {
                 return `<div id="total-found">${number} solo piano sonata found since ${savedDate}</div>`
                 break;
-            }
-
-            else if (savedDate >= 1907) {
+            } else if (savedDate >= 1907) {
                 return `<div id="total-found">${number} solo piano sonatas found since ${savedDate}</div>`
                 break;
-            }   
+            }
 
             return `<div id="total-found">${number} solo piano sonatas (or ${number + 2} total because of Op. 11, Sonaten-Triade) found since ${savedDate}</div>`
             break;
@@ -152,9 +150,9 @@ function createPieceQueryNumber(number) {
             return `<div id="total-found">${number} two piano work found since ${savedDate}</div>`
             break;
         default:
-          // code block
-      }
-    
+            return `<div id="total-found">No works found</div>`
+    }
+
 }
 
 function createTitleQuery(title) {
@@ -177,7 +175,7 @@ function displayPieces(piece) {
     movements += "</div></div>"
 
     if (piece.approxDuration == "TBD" && (parseDates(piece.year, savedDate) == 0)) {
-        
+
         return `<div class="piece">
                 <div class="piece__content accordionGroup">
                     <h2 class="piece__op">Op. ${piece.op}</h2>
@@ -242,7 +240,7 @@ function displayPieces(piece) {
             </div>`;
     }
 
-    
+
 }
 
 function receivedData(data) {
@@ -311,11 +309,11 @@ function receivedData(data) {
             }
         })
 
-        
+
         pieces = pieces.join(""); //put the HTML all together (get rid of the commas separating the HTML)
         piecesHTML.innerHTML = pieces;
 
-        var pieceCounter = $(".piece__container").find(".piece").length ;
+        var pieceCounter = $(".piece__container").find(".piece").length;
         pieceQueryHTML.innerHTML = createPieceQueryNumber(pieceCounter);
         /* after HTML is displayed, add accordion */
         $(".accordionGroup").accordion({
@@ -324,8 +322,8 @@ function receivedData(data) {
             "collapsible": true
         });
 
-        
-        
+
+
     }
 
     /* this is where we actually hook up the buttons to the filter */
@@ -337,7 +335,7 @@ function receivedData(data) {
 
     }
 
-    
+
 
 }
 
