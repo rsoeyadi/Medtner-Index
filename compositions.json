@@ -5,7 +5,7 @@
         "op": 1,
         "year": "1896 - 1897",
         "instrumentation": "solo piano",
-        "approxDuration": "20:00",
+        "approxDuration": "19:40 minutes (Tozer)",
         "misc": true,
         "movements": [ {
             "movementNumber": 1,
@@ -47,7 +47,7 @@
         "op": 2,
         "year": "1896 - 1900",
         "instrumentation": "solo piano",
-        "approxDuration": "15:00",
+        "approxDuration": "15:44 minutes (Pleshakov)",
         "misc": true,
         "movements": [ {
             "movementNumber": 1,
@@ -69,7 +69,7 @@
         "op": 3,
         "year": "1903",
         "instrumentation": "voice and piano",
-        "approxDuration": "8:00",
+        "approxDuration": "7:30 minutes (Levental)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "At the Gates of the Holy Cloister"
@@ -90,7 +90,7 @@
         "op": 4,
         "year": "1897 - 1902",
         "instrumentation": "solo piano",
-        "approxDuration": "10:00",
+        "approxDuration": "10:25 minutes (Pleshakov)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Étude"
@@ -115,7 +115,7 @@
         "op": 5,
         "year": "1903",
         "instrumentation": "solo piano",
-        "approxDuration": "35:00",
+        "approxDuration": "33:33 minutes (Debargue)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Allegro"
@@ -140,7 +140,7 @@
         "op": 6,
         "year": "1906",
         "instrumentation": "voice and piano",
-        "approxDuration": "20:00",
+        "approxDuration": "20:04 minutes (Gritton)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Wandrers Nachtlied II"
@@ -185,7 +185,7 @@
         "op": 7,
         "year": "1904",
         "instrumentation": "solo piano",
-        "approxDuration": "11:00",
+        "approxDuration": "11:27 minutes (Tozer)",
         "misc": true,
         "movements": [ {
             "movementNumber": 1,
@@ -202,12 +202,12 @@
     ]
     },
     {
-        "title": "2 Skazki (Fairy Tales)",
-        "queryTitle": "Fairy Tales Op. 8",
+        "title": "2 Skazki (Tales)",
+        "queryTitle": "Tales Op. 8",
         "op": 8,
         "year": "1905",
         "instrumentation": "solo piano",
-        "approxDuration": "10:00",
+        "approxDuration": "9:44 minutes (Tozer)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Andantino"
@@ -219,12 +219,12 @@
     ]
     },
     {
-        "title": "3 Skazki (Fairy Tales)",
-        "queryTitle": "Fairy Tales Op. 9",
+        "title": "3 Skazki (Tales)",
+        "queryTitle": "Tales Op. 9",
         "op": 9,
         "year": "1906",
         "instrumentation": "solo piano",
-        "approxDuration": "10:00",
+        "approxDuration": "8:33 minutes (Kim)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Tale in F minor"
@@ -245,7 +245,7 @@
         "op": 10,
         "year": "1906",
         "instrumentation": "solo piano",
-        "approxDuration": "19:00",
+        "approxDuration": "16:44 minutes (Sama)",
         "misc": true,
         "movements": [ {
             "movementNumber": 1,
@@ -267,7 +267,7 @@
         "op": 11,
         "year": "1906",
         "instrumentation": "solo piano",
-        "approxDuration": "25:00",
+        "approxDuration": "24:22 minutes (Tozer)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Piano Sonata No. 2 in A-flat Major"
@@ -288,7 +288,7 @@
         "op": 12,
         "year": "1907",
         "instrumentation": "voice and piano",
-        "approxDuration": "6:00",
+        "approxDuration": "5:59 minutes (Vitale)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Lieb Liebchen"
@@ -309,7 +309,7 @@
         "op": 13,
         "year": "1907",
         "instrumentation": "voice and piano",
-        "approxDuration": "6:30",
+        "approxDuration": "6:31 minutes (Chernykh)  ",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Winter Evening"
@@ -321,19 +321,19 @@
     ]
     },
     {
-        "title": "2 Skazki (Fairy Tales)",
+        "title": "2 Skazki (Tales)",
         "queryTitle": "Op. 14",
         "op": 14,
         "year": "1906 - 1907",
         "instrumentation": "solo piano",
-        "approxDuration": "7:30",
+        "approxDuration": "7:23 minutes (Tozer)",
         "movements": [ {
             "movementNumber": 1,
-            "movement": "Ophelia's Song"
+            "movement": "Tale in F minor, \"Ophelia's Song\""
         },
         {
             "movementNumber": 2,
-            "movement": "March of the Paladin"
+            "movement": "Tale in E minor, \"March of the Paladin\""
         }
     ]
     },
@@ -343,7 +343,7 @@
         "op": 15,
         "year": "1907 - 1909",
         "instrumentation": "voice and piano",
-        "approxDuration": "27:00",
+        "approxDuration": "27:22 minutes (Vitale)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Wandrers Nachtlied"
@@ -400,7 +400,7 @@
         "op": 16,
         "year": "1907",
         "instrumentation": "violin and piano",
-        "approxDuration": "14:30",
+        "approxDuration": "14:25 minutes (Feigin)",
         "movements": [ {
             "movementNumber": 1,
             "movement": "Andante con moto, sempre leggiero"
@@ -500,8 +500,8 @@
     ]
     },
     {
-        "title": "2 Skazki (Fairy Tales)",
-        "queryTitle": "Op. 20 Fairy Tales",
+        "title": "2 Skazki (Tales)",
+        "queryTitle": "Op. 20 Tales",
         "op": 20,
         "year": "1909",
         "instrumentation": "solo piano",
@@ -654,8 +654,8 @@
     ]
     },
     {
-        "title": "4 Skazki (Fairy Tales)",
-        "queryTitle": "Op. 26 Fairy Tales",
+        "title": "4 Skazki (Tales)",
+        "queryTitle": "Op. 26 Tales",
         "op": 26,
         "year": "1910 - 1912",
         "instrumentation": "solo piano",
@@ -872,8 +872,8 @@
     ]
     },
     {
-        "title": "4 Skazki (Fairy Tales)",
-        "queryTitle": "Op. 34 Fairy Tales",
+        "title": "4 Skazki (Tales)",
+        "queryTitle": "Op. 34 Tales",
         "op": 34,
         "year": "1916",
         "instrumentation": "solo piano",
@@ -897,8 +897,8 @@
     ]
     },
     {
-        "title": "4 Skazki (Fairy Tales)",
-        "queryTitle": "Op. 35 Fairy Tales",
+        "title": "4 Skazki (Tales)",
+        "queryTitle": "Op. 35 Tales",
         "op": 35,
         "year": "1916",
         "instrumentation": "solo piano",
@@ -1135,8 +1135,8 @@
     ]
     },
     {
-        "title": "3 Skazki (Fairy Tales)",
-        "queryTitle": "Op. 42 Fairy Tales",
+        "title": "3 Skazki (Tales)",
+        "queryTitle": "Op. 42 Tales",
         "op": 42,
         "year": "1921 - 1924",
         "instrumentation": "solo piano",
@@ -1287,7 +1287,7 @@
     ]
     },
     {
-        "title": "2 Skazki (Fairy Tales)",
+        "title": "2 Skazki (Tales)",
         "queryTitle": "Op. 48",
         "op": 48,
         "year": "1925",
@@ -1347,8 +1347,8 @@
     ]
     },
     {
-        "title": "6 Skazki (Fairy Tales)",
-        "queryTitle": "Op. 51 Fairy Tales",
+        "title": "6 Skazki (Tales)",
+        "queryTitle": "Op. 51 Tales",
         "op": 51,
         "year": "1928",
         "instrumentation": "solo piano",
@@ -1585,7 +1585,7 @@
         "title": "Piano Concerto No. 3 in E minor, \"Ballade\"",
         "queryTitle": "Piano Concerto No. 3 in E minor",
         "op": 60,
-        "year": "1921 - 1926",
+        "year": "1941 - 1943",
         "instrumentation": "piano concerto",
         "approxDuration": "36:00",
         "movements": [ {
@@ -1606,7 +1606,7 @@
         "title": "7 hinterlassene Lieder",
         "queryTitle": "Op. 61",
         "op": "61",
-        "year": "1915",
+        "year": "1927 - 1951",
         "instrumentation": "voice and piano",
         "approxDuration": "2:00",
         "movements": [ {
@@ -1684,7 +1684,7 @@
     }
     ,
     {
-        "title": "Skazka (Fairy Tale) in D minor",
+        "title": "Skazka (Tale) in D minor",
         "queryTitle": "Fairy Tale in D minor",
         "op": "",
         "year": "1915",
