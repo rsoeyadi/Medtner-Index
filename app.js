@@ -24,10 +24,10 @@ function createPieceQueryNumber(number) {
             break;
         case 'fairy-btn':
             if (number == 1) {
-                return `<div id="total-found">${number} Fairy Tale found since ${savedDate}</div>`
+                return `<div id="total-found">${number} Fairy Tale work found since ${savedDate}</div>`
                 break;
             }
-            return `<div id="total-found">${number} Fairy Tales found since ${savedDate}</div>`
+            return `<div id="total-found">${number} Fairy Tale works found since ${savedDate}</div>`
             break;
         case 'forg-btn':
             if (number == 1) {
