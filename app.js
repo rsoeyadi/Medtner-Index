@@ -76,7 +76,7 @@ function createPieceQueryNumber(number) {
                 return `<div id="total-found">${number} violin nocturne found from ${savedDate}</div>`
                 break;
             }
-            return `<div id="total-found">${number} violin nocturnes found from ${savedDate}</div>`
+            return `<div id="total-found">${number} set of violin nocturnes found from ${savedDate}</div>`
             break;
         case 'violinSon-btn':
             if (number == 1) {
