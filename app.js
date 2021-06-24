@@ -332,9 +332,20 @@ function receivedData(data) {
 
     for (var i = 0; i < btns.length; i++) { //loop through and bind each button and call the closure
         btns[i].addEventListener('click', passBtnText.bind(btns[i]));
-
+        
     }
+   
+    /* close the menus if clicked outside */
+    $('html').click(function(event) {
 
+        if (event.target.classList.contains('genre-btn')) {
+            return
+        }
+
+        hideOtherBtnMenus();    
+      });
+      
+      
 
 
 }
