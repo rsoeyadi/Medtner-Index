@@ -9,6 +9,7 @@ function hideOtherBtnMenus() {
 function addHiddenClass() {
     hideOtherBtnMenus();
 
+    /* check if all the sets of buttons (ul) have the hidden class, meaning that they're all already hidden */
     if ($("ul").length == $("ul.hidden").length) {
         this.classList.add('hidden');
     }
