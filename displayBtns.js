@@ -6,19 +6,15 @@ function hideOtherBtnMenus() {
     }
 }
 
-var number = 1;
-
 function addHiddenClass() {
     hideOtherBtnMenus();
 
-    if (number % 2 != 0) {
-        this.classList.remove('hidden');
-        number += 1;
+    if ($("ul").length == $("ul.hidden").length) {
+        this.classList.add('hidden');
     }
 
     else {
-        this.classList.add('hidden');
-        number += 1;
+        this.classList.remove('hidden');
     }
 
 }

@@ -342,7 +342,8 @@ function receivedData(data) {
             return
         }
 
-        hideOtherBtnMenus();    
+        hideOtherBtnMenus(); 
+        
       });
       
       
