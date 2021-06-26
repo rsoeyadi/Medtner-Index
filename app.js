@@ -250,6 +250,7 @@ function receivedData(data) {
     var totalFound = document.getElementById('#total-found');
 
     function passBtnText() { //closure for passing in button text
+        
         buttonClicked = this;
         buttonID = this.id;
         text = this.textContent; //we bind the button text to this function and need to use 'this'
@@ -334,23 +335,16 @@ function receivedData(data) {
         btns[i].addEventListener('click', passBtnText.bind(btns[i]));
     }
    
-    var menuOpen = false;
-
     /* close the menus if clicked outside */
     $('html').click(function(event) {
 
-        if (menuOpen) {
-            menuOpen = false;
-            hideOtherBtnMenus();
+       
+            
+
+     if (event.target.classList.contains('genre-btn')) {
             return
         }
 
-        else if (event.target.classList.contains('genre-btn')) {
-            menuOpen = true;
-            return
-        }
-
-        menuOpen = false;
         hideOtherBtnMenus(); 
         
       });
