@@ -343,7 +343,7 @@ function receivedData(data) {
 
      if (event.target.classList.contains('genre-btn')) {
             return
-        }
+    }
 
         hideOtherBtnMenus(); 
         
