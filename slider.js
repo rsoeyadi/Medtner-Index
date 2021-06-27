@@ -4,7 +4,7 @@ var dates = Array();
 
 for (var i = 1896; i < 1952; i++){
     dates[i] = i;
-  }
+}
 
 $("#date-slider")
 
@@ -30,11 +30,9 @@ $("#date-slider")
 
 var filterButton = document.querySelector("#filter-btn")
 
-
 function updateList() {
     buttonClicked.click();
     hideOtherBtnMenus();
-    
 }
 
 function parseDates(pieceDates, filterDate) {
