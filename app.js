@@ -323,8 +323,6 @@ function receivedData(data) {
             "collapsible": true
         });
 
-
-
     }
 
     /* this is where we actually hook up the buttons to the filter */
@@ -338,22 +336,15 @@ function receivedData(data) {
     /* close the menus if clicked outside */
     $('html').click(function(event) {
 
-       
-            
-
      if (event.target.classList.contains('genre-btn')) {
             return
     }
 
         hideOtherBtnMenus(); 
-        
+
       });
       
-      
-
-
 }
-
 
 function notReceivedData(error) {
     console.log('Error!');
