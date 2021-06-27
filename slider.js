@@ -1,28 +1,40 @@
 var savedDate = 1896
 
-$( "#date-slider" ).slider({
-    values: savedDate,
-    min: 1896,
-    max: 1951,
-    value: savedDate
-});
+var dates = Array();
 
-$('#date-slider').on('slide', function(event, ui) {
-    $("#current-date").text("Composed from " + ui.value);
+for (var i = 1896; i < 1952; i++){
+    dates[i] = i;
+  }
 
-});
+$("#date-slider")
+
+    .slider({ 
+        min: 1896, 
+        max: dates.length-1, 
+    })
+                    
+    .slider("pips", {
+        rest: false
+    })
+                    
+    .slider("float", {
+        labels: dates,
+        
+    })
+
+    .on("slidechange", function(e,ui) {
+        $("#current-date").text( "Works composed from " + dates[ui.value]);
+        savedDate = dates[ui.value];
+        updateList();
+    });
 
 var filterButton = document.querySelector("#filter-btn")
 
-filterButton.addEventListener("click", function() {
-    savedDate = $('#date-slider').slider("option", "value");
-    updateList();
-    
-});
 
 function updateList() {
     buttonClicked.click();
     hideOtherBtnMenus();
+    
 }
 
 function parseDates(pieceDates, filterDate) {

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap");
 * {
+  font-family: "SimHei", "Hei", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,7 +12,6 @@ a, a:visited {
 }
 
 li, a, button {
-  font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
   text-decoration: none;
 }
@@ -42,6 +42,9 @@ header h1 {
 header img {
   margin-top: -5px;
   margin-left: 20px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .date {
@@ -62,12 +65,29 @@ header img {
   max-width: 250px;
 }
 
-.ui-slider-horizontal .ui-slider-handle {
-  margin-left: 0 !important;
+#date-slider .ui-sliper-pip {
+  font-size: 1em;
 }
 
-#filter-btn {
-  margin-top: 10px;
+#date-slider .ui-slider-handle .ui-slider-tip {
+  font-size: 0.75em;
+  width: 42px;
+  margin-left: -22px;
+  height: 33px;
+  line-height: 30px;
+  top: -40px;
+  background: #434d5a;
+  border-color: #434d5a;
+  color: white;
+}
+
+#date-slider .ui-slider-handle .ui-slider-tip:before,
+#date-slider .ui-slider-handle .ui-slider-tip:after {
+  border-top-color: #434d5a;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+  margin-left: 0 !important;
 }
 
 .ui-accordion .ui-accordion-header {
@@ -154,9 +174,15 @@ button:hover {
   transition: height 0ms 850ms, opacity 850ms 0ms;
 }
 
+#current-date {
+  margin-top: 20px;
+}
+
 .music-wrapper {
   z-index: 99;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
   display: grid;
   --auto-grid-min-size: 5rem;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
