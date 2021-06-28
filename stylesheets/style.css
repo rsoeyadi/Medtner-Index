@@ -25,6 +25,7 @@ ul {
 header {
   padding-top: 20px;
   margin-left: 20px;
+  text-align: center;
 }
 
 #medtnerdex {
@@ -61,7 +62,7 @@ header img {
 }
 
 #date-slider {
-  margin-top: 10px;
+  margin: 0 auto;
   max-width: 250px;
 }
 
@@ -139,11 +140,16 @@ h4 {
   -moz-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
 }
 
+.buttons {
+  text-align: center;
+}
+
 /* to prevent menu from pushing down nearby content */
 .button-set {
-  position: absolute;
   background-color: white;
   z-index: 2;
+  width: 120px;
+  position: absolute;
 }
 
 button {
@@ -175,17 +181,18 @@ button:hover {
 }
 
 #current-date {
-  margin-top: 20px;
+  margin: 50px auto;
 }
 
 .music-wrapper {
   z-index: 99;
-  margin-top: 20px;
-  margin-left: 20px;
   margin-bottom: 20px;
-  display: grid;
-  --auto-grid-min-size: 5rem;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  display: flex;
+  justify-content: center;
+}
+
+.music-wrapper > div {
+  margin-left: 20px;
 }
 
 .music-wrapper button {
@@ -274,6 +281,16 @@ button:hover {
 }
 
 @media all and (max-width: 800px) {
+  .button-set {
+    background-color: white;
+    z-index: 2;
+    width: 100px;
+  }
+
+  .music-wrapper h1 {
+    font-size: 12px;
+  }
+
   .piece__container {
     --n:2.1;
     /*2 visible items */
@@ -297,12 +314,11 @@ button:hover {
   }
 
   .music-wrapper {
-    margin: 22px;
-    --auto-grid-min-size: 3rem;
+    margin: 15px;
   }
 
   .music-wrapper h1 {
-    font-size: 13px;
+    font-size: 10px;
   }
 }
 
