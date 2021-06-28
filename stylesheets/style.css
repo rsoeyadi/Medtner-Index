@@ -243,7 +243,7 @@ button:hover {
   /*4 visible items */
   --g:10px;
   display: grid;
-  --auto-grid-min-size: 24rem;
+  --auto-grid-min-size: 14rem;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
   grid-column-gap: 20px;
   grid-row-gap: 20px;
@@ -288,7 +288,7 @@ button:hover {
   }
 
   .music-wrapper h1 {
-    font-size: 12px;
+    font-size: 1em;
   }
 
   .piece__container {
@@ -313,12 +313,8 @@ button:hover {
     width: 20%;
   }
 
-  .music-wrapper {
-    margin: 15px;
-  }
-
   .music-wrapper h1 {
-    font-size: 10px;
+    font-size: 0.65em;
   }
 }
 
