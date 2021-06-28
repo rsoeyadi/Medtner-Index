@@ -146,15 +146,15 @@ h4 {
 
 /* to prevent menu from pushing down nearby content */
 .button-set {
-  background-color: white;
   z-index: 2;
   width: 120px;
   position: absolute;
 }
 
 button {
+  background-color: #fff540;
+  border-radius: 10px;
   transition: all 0.3s ease;
-  background-color: #e4e4e4;
   padding: 5px 10px;
   border: none;
   cursor: pointer;
