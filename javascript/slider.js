@@ -23,7 +23,7 @@ $("#date-slider")
     })
 
     .on("slidechange", function(e,ui) {
-        $("#current-date").text( "Works composed after " + dates[ui.value]);
+        $("#current-date").text( "Works completed after " + dates[ui.value]);
         savedDate = dates[ui.value];
         updateList();
     });
