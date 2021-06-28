@@ -243,7 +243,7 @@ button:hover {
   /*4 visible items */
   --g:10px;
   display: grid;
-  --auto-grid-min-size: 14rem;
+  --auto-grid-min-size: 16rem;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
   grid-column-gap: 20px;
   grid-row-gap: 20px;
