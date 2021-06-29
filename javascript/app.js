@@ -167,6 +167,29 @@ function checkOneMovement(piece) {
     return `<div class=""><h4 class="piece__movements">Movements</h4><div class="piece__movements">`;
 }
 
+function giveInstrumentationColor(instrumentation) {
+    if (instrumentation == "solo piano") {
+        return `<p class="piece__instrumentation" style="color: rgb(42, 0, 212)">${instrumentation}</p>`
+    }
+
+    else if (instrumentation == "violin and piano") {
+        return `<p class="piece__instrumentation" style="color: rgb(244, 3, 252)">${instrumentation}</p>`
+    }
+
+    else if (instrumentation == "voice and piano") {
+        return `<p class="piece__instrumentation" style="color: rgb(15, 176, 0)">${instrumentation}</p>`
+    }
+
+    else if (instrumentation == "piano quintet") {
+        return `<p class="piece__instrumentation" style="color: rgb(176, 109, 0)">${instrumentation}</p>`
+    }
+
+    else if (instrumentation == "two pianos") {
+        return `<p class="piece__instrumentation" style="color: rgb(176, 0, 65)">${instrumentation}</p>`
+    }
+
+
+}
 function displayPieces(piece) {
     var movements = checkOneMovement(piece);
     var youtubeQuery = createTitleQuery(piece.queryTitle);
@@ -190,7 +213,7 @@ function displayPieces(piece) {
                     
                     <div href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
                     <p class="piece__title">${piece.title}</p>
-                    <p class="piece__instrumentation">${piece.instrumentation}</p>
+                    ${giveInstrumentationColor(piece.instrumentation)}
                     <p class="piece__year">${piece.year}</p>
                     ${movements}
                     </div>
@@ -205,8 +228,8 @@ function displayPieces(piece) {
                             
                         </h2>
                         <div>
-                        <p>No Opus Number</p>
-                        <p class="piece__instrumentation">${piece.instrumentation}</p>
+                        <p class="piece__noOpus">No opus number</p>
+                        ${giveInstrumentationColor(piece.instrumentation)}
                         <p class="piece__year">${piece.year}</p>
                         <p class="piece__duration">About ${piece.approxDuration}</p>   
                         ${movements}
@@ -223,7 +246,7 @@ function displayPieces(piece) {
                         
                         <div>
                             <p class="piece__title">${piece.title}</p>
-                            <p class="piece__instrumentation">${piece.instrumentation}</p>
+                            ${giveInstrumentationColor(piece.instrumentation)}
                             <p class="piece__year">${piece.year}</p>
                             <p class="piece__duration">About ${piece.approxDuration}</p>   
                             ${movements}
@@ -239,7 +262,7 @@ function displayPieces(piece) {
                     
                     <div href="http://www.youtube.com/results?search_query=${youtubeQuery}&oq=${youtubeQuery}" target="_blank">
                     <p class="piece__title">${piece.title}</p>
-                    <p class="piece__instrumentation">${piece.instrumentation}</p>
+                    ${giveInstrumentationColor(piece.instrumentation)}
                     <p class="piece__year">${piece.year}</p>
                     <p class="piece__duration">About ${piece.approxDuration}</p>
                     ${movements}
