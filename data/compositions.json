@@ -996,7 +996,7 @@
         "movements": [ {
             "movementNumber": 1,
             "movement": "Piano Sonata No. 10 in A minor, \"Sonata Reminiscenza\"",
-            "oneMovement": true,
+            "oneMovement": true
         },
         {
             "movementNumber": 2,
@@ -1054,7 +1054,7 @@
         {
             "movementNumber": 5,
             "movement": "Piano Sonata No. 11 in C minor, \"Sonata tragica\"",
-            "oneMovement": true,
+            "oneMovement": true
         }
     ]
     },
@@ -1536,7 +1536,7 @@
         },
         {
             "movementNumber": 2,
-            "movement": " L’istesso tempo (ma con entusiasmo)"
+            "movement": "L’istesso tempo (ma con entusiasmo)"
         },
         {
             "movementNumber": 3,
