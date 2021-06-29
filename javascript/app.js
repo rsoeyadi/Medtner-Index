@@ -161,14 +161,14 @@ function createTitleQuery(title) {
 
 function checkOneMovement(piece) {
     if (piece.hasOwnProperty('oneMovement')) {
-        return "<p class='piece__movements'><b>single movement work</b></p>"
+        return `<div><h4 class="piece__movements" style="color: blue">Movements (single movement)</h4><div class="piece__movements">`;
     }
 
-    return ''
+    return `<div class=""><h4 class="piece__movements">Movements</h4><div class="piece__movements">`;
 }
 
 function displayPieces(piece) {
-    var movements = `<div class=""><h4 class="piece__movements">Movements</h4>${checkOneMovement(piece)}<div class="piece__movements">`;
+    var movements = checkOneMovement(piece);
     var youtubeQuery = createTitleQuery(piece.queryTitle);
 
     for (let i = 0; i < piece.movements.length; i++) {
