@@ -279,10 +279,13 @@ button:hover {
   margin-top: 2px;
   font-size: 0.75em;
 }
+.piece .piece__noOpus {
+  color: red;
+  font-size: 0.7em;
+}
 
 @media all and (max-width: 800px) {
   .button-set {
-    background-color: white;
     z-index: 2;
     width: 100px;
   }
