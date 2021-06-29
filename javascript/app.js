@@ -159,8 +159,16 @@ function createTitleQuery(title) {
     return "Medtner " + title.replace(/\s/g, '+').toLowerCase();
 }
 
+function checkOneMovement(piece) {
+    if (piece.hasOwnProperty('oneMovement')) {
+        return "<p class='piece__movements'><b>single movement work</b></p>"
+    }
+
+    return ''
+}
+
 function displayPieces(piece) {
-    var movements = '<div class=""><h4 class="piece__movements">Movements</h4><div class="piece__movements">';
+    var movements = `<div class=""><h4 class="piece__movements">Movements</h4>${checkOneMovement(piece)}<div class="piece__movements">`;
     var youtubeQuery = createTitleQuery(piece.queryTitle);
 
     for (let i = 0; i < piece.movements.length; i++) {
@@ -233,7 +241,7 @@ function displayPieces(piece) {
                     <p class="piece__title">${piece.title}</p>
                     <p class="piece__instrumentation">${piece.instrumentation}</p>
                     <p class="piece__year">${piece.year}</p>
-                    <p class="piece__duration">About ${piece.approxDuration}</p>   
+                    <p class="piece__duration">About ${piece.approxDuration}</p>
                     ${movements}
                     </div>
                 </div>
