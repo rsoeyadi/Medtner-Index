@@ -544,6 +544,7 @@
         "year": "1901 - 1910",
         "instrumentation": "solo piano",
         "approxDuration": "17:52 minutes (Debargue)",
+        "oneMovement": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Tenebroso, sempre affrettando"
@@ -647,6 +648,7 @@
         "year": "1910 - 1911",
         "instrumentation": "solo piano",
         "approxDuration": "32:09 minutes (Ponochevny)",
+        "oneMovement": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Introduzione: Andante - Allegro"
@@ -789,6 +791,7 @@
         "year": "1914",
         "instrumentation": "solo piano",
         "approxDuration": "14:39 minutes (Milne)",
+        "oneMovement": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Allegro risoluto"
@@ -992,7 +995,8 @@
         "approxDuration": "26:14 minutes (Lugansky)",
         "movements": [ {
             "movementNumber": 1,
-            "movement": "Piano Sonata No. 10 in A minor, \"Sonata Reminiscenza\""
+            "movement": "Piano Sonata No. 10 in A minor, \"Sonata Reminiscenza\"",
+            "oneMovement": true,
         },
         {
             "movementNumber": 2,
@@ -1049,7 +1053,8 @@
         },
         {
             "movementNumber": 5,
-            "movement": "Piano Sonata No. 11 in C minor, \"Sonata tragica\""
+            "movement": "Piano Sonata No. 11 in C minor, \"Sonata tragica\"",
+            "oneMovement": true,
         }
     ]
     },
@@ -1497,6 +1502,7 @@
         "year": "1929 - 1930",
         "instrumentation": "solo piano",
         "approxDuration": "24:23 minutes (Tozer)",
+        "oneMovement": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Romanza. Andantino con moto, ma sempre espressivo"
@@ -1523,9 +1529,30 @@
         "year": "1929 - 1931",
         "instrumentation": "solo piano",
         "approxDuration": "17:36 minutes (Tozer)",
+        "oneMovement": true,
         "movements": [ {
             "movementNumber": 1,
             "movement": "Allegro sostenuto"
+        },
+        {
+            "movementNumber": 2,
+            "movement": " L’istesso tempo (ma con entusiasmo)"
+        },
+        {
+            "movementNumber": 3,
+            "movement": "Fuga: Sempre al rigore di tempo"
+        },
+        {
+            "movementNumber": 4,
+            "movement": "Tempo I, concentrando"
+        },
+        {
+            "movementNumber": 5,
+            "movement": "A tempo (con entusiasmo)"
+        },
+        {
+            "movementNumber": 6,
+            "movement": "Coda: Sempre animato (al rigore di tempo)"
         }
     ]
     },
