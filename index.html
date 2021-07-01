@@ -1,108 +1,110 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Medtnerdex</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./stylesheets/style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
-        
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Medtnerdex</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--for the slider-->
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./javascript/jquery-ui-slider-pips.js"></script>
+    <link rel="stylesheet" href="./stylesheets/jquery-ui-slider-pips.css">
+    <link rel="stylesheet" href="///code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script type="text/javascript"
+        src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <!--for the slider-->
+
+</head>
+
+<body>
+
+    <header>
+        <div id="medtnerdex">
+            <h1 class="logo">Medtnerdex</h1>
+            <img src="./img/medtner-icon.jpeg" alt="">
+        </div>
+    </header>
+
+    <div class="buttons">
+
+        <div id="all-music">
+            <ul>
+                <li><button class="button" id="allMusic-btn">Complete Works</button></li>
+            </ul>
+        </div>
+
         <!--for the slider-->
-        <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script src="./javascript/jquery-ui-slider-pips.js"></script>
-        <link rel="stylesheet" href="./stylesheets/jquery-ui-slider-pips.css">
-        <link rel="stylesheet" href="///code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+        <div class="sliderAndBtn">
+            <div id="date-slider"></div>
+        </div>
+
+        <div class="date">
+            <p id="current-date">Works completed after 1896</p>
+        </div>
         <!--for the slider-->
 
-    </head>
+        <div class="music-wrapper">
 
-    <body>
-
-        <header>
-            <div id="medtnerdex">
-                <h1 class="logo">Medtnerdex</h1>
-                <img src="./img/medtner-icon.jpeg" alt="">
-            </div>
-        </header>
-
-        <div class="buttons">
-
-            <div id="all-music">
-                <ul>
-                    <li><button class="button" id="allMusic-btn">Complete Works</button></li>
+            <div id="solo-piano">
+                <h1 class="genre-btn">Piano</h1>
+                <ul class="button-set hidden">
+                    <li><button class="button genre-inner-btn" id="allPiano-btn">All</button></li>
+                    <li><button class="button genre-inner-btn" id="fairy-btn">Tale</button></li>
+                    <li><button class="button genre-inner-btn" id="forg-btn">Forgotten Melodies</button></li>
+                    <li><button class="button genre-inner-btn" id="pianoConc-btn">Piano Concerto</button></li>
+                    <li><button class="button genre-inner-btn" id="pianoSon-btn">Sonata</button></li>
+                    <li><button class="button genre-inner-btn" id="miscPiano-btn">Miscellaneous</button></li>
                 </ul>
             </div>
 
-            <!--for the slider-->
-            <div class="sliderAndBtn">
-                <div id="date-slider"></div>
+            <div id="violin-and-piano">
+                <h1 class="genre-btn">Violin</h1>
+                <ul class="button-set hidden">
+                    <li><button class="button genre-inner-btn" id="allViolin-btn">All</button></li>
+                    <li><button class="button genre-inner-btn" id="canzonas-btn">Canzona</button></li>
+                    <li><button class="button genre-inner-btn" id="nocturnes-btn">Nocturne</button></li>
+                    <li><button class="button genre-inner-btn" id="violinSon-btn">Sonata</button></li>
+                </ul>
             </div>
 
-            <div class="date">
-                <p id="current-date">Works completed after 1896</p>
-            </div>
-            <!--for the slider-->
-                 
-            <div class="music-wrapper">
-                
-                <div id="solo-piano">
-                    <h1 class="genre-btn">Piano</h1>
-                    <ul class="button-set hidden">
-                        <li><button class="button genre-inner-btn" id="allPiano-btn">All</button></li>
-                        <li><button class="button genre-inner-btn" id="fairy-btn">Tale</button></li>
-                        <li><button class="button genre-inner-btn" id="forg-btn">Forgotten Melodies</button></li>
-                        <li><button class="button genre-inner-btn" id="pianoConc-btn">Piano Concerto</button></li>
-                        <li><button class="button genre-inner-btn" id="pianoSon-btn">Sonata</button></li>
-                        <li><button class="button genre-inner-btn" id="miscPiano-btn">Miscellaneous</button></li>
-                    </ul>
-                </div>
-
-                <div id="violin-and-piano">
-                    <h1 class="genre-btn">Violin</h1>
-                    <ul class="button-set hidden">
-                        <li><button class="button genre-inner-btn" id="allViolin-btn">All</button></li>
-                        <li><button class="button genre-inner-btn" id="canzonas-btn">Canzona</button></li>
-                        <li><button class="button genre-inner-btn" id="nocturnes-btn">Nocturne</button></li>
-                        <li><button class="button genre-inner-btn" id="violinSon-btn">Sonata</button></li>
-                    </ul>
-                </div>
-
-                <div id="voice">
-                    <h1 class="genre-btn">Vocal</h1>
-                    <ul class="button-set hidden">    
-                        <li><button class="button genre-inner-btn" id="allVoice-btn">All</button></li>
-                        <li><button class="button genre-inner-btn" id="fet-btn">Fet</button></li>
-                        <li><button class="button genre-inner-btn" id="goethe-btn">Goethe</button></li>
-                        <li><button class="button genre-inner-btn" id="pushkin-btn">Pushkin</button></li>
-                        <li><button class="button genre-inner-btn" id="vocalSon-btn">Sonata</button></li>
-                        <li><button class="button genre-inner-btn" id="vocalSuite-btn">Suite</button></li>
-                        <li><button class="button genre-inner-btn" id="tyutchev-btn">Tyutchev</button></li>
-                    </ul>
-                </div>
-
-                <div id="chamber-music">
-                    <h1 class="genre-btn">Chamber</h1>
-                    <ul class="button-set hidden">
-                        <li><button class="button genre-inner-btn" id="allChamber-btn">All</button></li>
-                        <li><button class="button genre-inner-btn" id="quintet-btn">Quintet</button></li>
-                        <li><button class="button genre-inner-btn" id="twoPiano-btn">Two Piano</button></li>
-                    </ul>
-                </div>
+            <div id="voice">
+                <h1 class="genre-btn">Vocal</h1>
+                <ul class="button-set hidden">
+                    <li><button class="button genre-inner-btn" id="allVoice-btn">All</button></li>
+                    <li><button class="button genre-inner-btn" id="fet-btn">Fet</button></li>
+                    <li><button class="button genre-inner-btn" id="goethe-btn">Goethe</button></li>
+                    <li><button class="button genre-inner-btn" id="pushkin-btn">Pushkin</button></li>
+                    <li><button class="button genre-inner-btn" id="vocalSon-btn">Sonata</button></li>
+                    <li><button class="button genre-inner-btn" id="vocalSuite-btn">Suite</button></li>
+                    <li><button class="button genre-inner-btn" id="tyutchev-btn">Tyutchev</button></li>
+                </ul>
             </div>
 
-            <div class="pieceQueryNumber"></div>
+            <div id="chamber-music">
+                <h1 class="genre-btn">Chamber</h1>
+                <ul class="button-set hidden">
+                    <li><button class="button genre-inner-btn" id="allChamber-btn">All</button></li>
+                    <li><button class="button genre-inner-btn" id="quintet-btn">Quintet</button></li>
+                    <li><button class="button genre-inner-btn" id="twoPiano-btn">Two Piano</button></li>
+                </ul>
+            </div>
         </div>
 
+        <div class="pieceQueryNumber"></div>
+    </div>
+
     <section class="list-compositions">
-        <div class="piece__container"> 
+        <div class="piece__container">
         </div>
     </section>
 
@@ -112,7 +114,7 @@
     <!-- TODO: Add SDKs for Firebase products that you want to use
         https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
-    
+
     <script>
         // Your web app's Firebase configuration
         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -126,9 +128,9 @@
             appId: "1:677744304486:web:ce7ac6061bc4411f7628a7",
             measurementId: "G-XQEXST9VRV"
         };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
     </script>
 
     <!--for the slider-->
@@ -138,5 +140,6 @@
     <script src="./javascript/app.js"></script>
     <script src="./javascript/displayBtns.js"></script>
 
-    </body>
+</body>
+
 </html>
