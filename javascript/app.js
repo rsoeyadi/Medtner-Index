@@ -269,6 +269,26 @@ function displayPieces(piece) {
 
 }
 
+function adjustOpusColors() {
+    var instrumentations = document.getElementsByClassName('piece__instrumentation');
+
+    for (let i = 0; i < instrumentations.length; i++) {
+        if (instrumentations[i].textContent == "solo piano") {
+            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(42, 0, 212)";
+        } else if (instrumentations[i].textContent == "piano concerto") {
+            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(252, 3, 3)";
+        } else if (instrumentations[i].textContent == "voice and piano") {
+            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(15, 176, 0)";
+        } else if (instrumentations[i].textContent == "violin and piano") {
+            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(244, 3, 252)";
+        } else if (instrumentations[i].textContent == "piano quintet") {
+            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(176, 109, 0)";
+        } else if (instrumentations[i].textContent == "two pianos") {
+            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(176, 0, 65)";
+        }
+    }
+}
+
 function receivedData(data) {
 
     var values = data.val(); //the data itself
@@ -349,6 +369,8 @@ function receivedData(data) {
             "collapsible": true
         });
 
+        adjustOpusColors();
+
     }
 
     /* this is where we actually hook up the buttons to the filter */
@@ -373,25 +395,7 @@ function receivedData(data) {
 
     });
 
-    var instrumentations = document.getElementsByClassName('piece__instrumentation');
 
-    for (let i = 0; i < instrumentations.length; i++) {
-        if (instrumentations[i].textContent == "solo piano") {
-            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(42, 0, 212)";
-        } else if (instrumentations[i].textContent == "piano concerto") {
-            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(252, 3, 3)";
-        } else if (instrumentations[i].textContent == "voice and piano") {
-            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(15, 176, 0)";
-
-        } else if (instrumentations[i].textContent == "violin and piano") {
-            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(244, 3, 252)";
-
-        } else if (instrumentations[i].textContent == "piano quintet") {
-            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(176, 109, 0)";
-        } else if (instrumentations[i].textContent == "two pianos") {
-            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(176, 0, 65)";
-        }
-    }
 
 }
 
