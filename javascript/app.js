@@ -170,26 +170,21 @@ function checkOneMovement(piece) {
 function giveInstrumentationColor(instrumentation) {
     if (instrumentation == "solo piano") {
         return `<p class="piece__instrumentation" style="color: rgb(42, 0, 212)">${instrumentation}</p>`
-    }
-
-    else if (instrumentation == "violin and piano") {
+    } else if (instrumentation == "violin and piano") {
         return `<p class="piece__instrumentation" style="color: rgb(244, 3, 252)">${instrumentation}</p>`
-    }
-
-    else if (instrumentation == "voice and piano") {
+    } else if (instrumentation == "voice and piano") {
         return `<p class="piece__instrumentation" style="color: rgb(15, 176, 0)">${instrumentation}</p>`
-    }
-
-    else if (instrumentation == "piano quintet") {
+    } else if (instrumentation == "piano concerto") {
+        return `<p class="piece__instrumentation" style="color: rgb(252, 3, 3)">${instrumentation}</p>`
+    } else if (instrumentation == "piano quintet") {
         return `<p class="piece__instrumentation" style="color: rgb(176, 109, 0)">${instrumentation}</p>`
-    }
-
-    else if (instrumentation == "two pianos") {
+    } else if (instrumentation == "two pianos") {
         return `<p class="piece__instrumentation" style="color: rgb(176, 0, 65)">${instrumentation}</p>`
     }
 
 
 }
+
 function displayPieces(piece) {
     var movements = checkOneMovement(piece);
     var youtubeQuery = createTitleQuery(piece.queryTitle);
@@ -281,14 +276,14 @@ function receivedData(data) {
     var totalFound = document.getElementById('#total-found');
 
     function passBtnText() { //closure for passing in button text
-        
+
         buttonClicked = this;
         buttonID = this.id;
         text = this.textContent; //we bind the button text to this function and need to use 'this'
 
         currentPiecesInstrumentation = $(this).parent().parent().parent().attr('id').replace(/\-/g, ' ');
 
-        let pieces = values.map(function(piece) { //go through each object one by one and create the HTML dynamically
+        let pieces = values.map(function (piece) { //go through each object one by one and create the HTML dynamically
             var chamberMusic = ["two pianos", "piano quintet"];
             //'all' buttons
             if (buttonID == "allMusic-btn") {
@@ -368,16 +363,36 @@ function receivedData(data) {
     buttonClicked.click();
 
     /* close the menus if clicked outside */
-    $('html').click(function(event) {
+    $('html').click(function (event) {
 
-     if (event.target.classList.contains('genre-btn')) {
+        if (event.target.classList.contains('genre-btn')) {
             return
+        }
+
+        hideOtherBtnMenus();
+
+    });
+
+    var instrumentations = document.getElementsByClassName('piece__instrumentation');
+
+    for (let i = 0; i < instrumentations.length; i++) {
+        if (instrumentations[i].textContent == "solo piano") {
+            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(42, 0, 212)";
+        } else if (instrumentations[i].textContent == "piano concerto") {
+            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(252, 3, 3)";
+        } else if (instrumentations[i].textContent == "voice and piano") {
+            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(15, 176, 0)";
+
+        } else if (instrumentations[i].textContent == "violin and piano") {
+            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(244, 3, 252)";
+
+        } else if (instrumentations[i].textContent == "piano quintet") {
+            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(176, 109, 0)";
+        } else if (instrumentations[i].textContent == "two pianos") {
+            instrumentations[i].parentNode.previousElementSibling.style.color = "rgb(176, 0, 65)";
+        }
     }
 
-        hideOtherBtnMenus(); 
-
-      });
-      
 }
 
 function notReceivedData(error) {
