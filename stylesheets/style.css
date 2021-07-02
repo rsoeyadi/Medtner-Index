@@ -284,6 +284,11 @@ button:hover {
   font-size: 0.7em;
 }
 
+#copyright {
+  text-align: center;
+  margin: 15px;
+}
+
 @media all and (max-width: 800px) {
   .button-set {
     z-index: 2;
