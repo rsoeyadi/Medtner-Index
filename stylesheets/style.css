@@ -129,7 +129,9 @@ h4 {
 
 .genre-btn {
   transition: all 0.3s ease;
-  background-color: #e2e1e1;
+  background-color: rgb(0, 110, 39);
+  color: #fff540;
+  border-radius: 15px;
   padding: 10px;
   cursor: pointer;
 }
@@ -149,27 +151,25 @@ h4 {
   z-index: 2;
   width: 120px;
   position: absolute;
+  height: auto;
+  opacity: 1;
+  transition: height 0ms 0ms, opacity 850ms 0ms;
 }
 
 button {
-  background-color: #fff540;
-  border-radius: 10px;
+  color: #fff540;
+  border-radius: 15px;
   transition: all 0.3s ease;
   padding: 5px 10px;
   border: none;
-  cursor: pointer;
+  cursor: pointer;  
+  background-color: rgb(0, 110, 39);
 }
 
 button:hover {
   box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
   -webkit-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
   -moz-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
-}
-
-.button-set {
-  height: auto;
-  opacity: 1;
-  transition: height 0ms 0ms, opacity 850ms 0ms;
 }
 
 .hidden {
